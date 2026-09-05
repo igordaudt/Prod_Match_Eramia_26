@@ -22,14 +22,14 @@
 \maketitle
 
 \begin{abstract}
-This work evaluates BM25, dense E5, hybrid E5, and hybrid BGE-M3 for product matching of SINAPI items, using two datasets with distinct lexical profiles: a real ground truth of 852 queries from 948 product-item correlations validated in production, and a synthetic benchmark of 48 queries from technical-notation substitutions. On the real dataset, BM25 attains the highest MAP (0.797), ahead of hybrid BGE-M3 (0.793), with 24$\times$ lower latency. On the synthetic one (Jaccard 0.403 vs.\ 0.652 on the real dataset), the pattern reverses: hybrid BGE-M3 beats BM25 by $+0.152$ MAP, the largest semantic gain observed. This advantage of dense over lexical retrieval depends on the terminological variation type and does not fully hold on real data.
+This work evaluates information retrieval methods (BM25, dense E5, hybrid E5, and hybrid BGE-M3) for product matching of SINAPI items, using datasets with distinct lexical profiles: a real ground truth of 852 queries, derived from 948 query-item correlations from a budgeting platform (PainelConstru, real dataset), and a synthetic benchmark of 48 queries, built through systematic technical-notation substitutions. On the real dataset, BM25 attains the highest MAP (0.797), ahead of hybrid BGE-M3 (0.793), with 24 times lower latency. On the synthetic dataset, built for deliberately low lexical overlap (Jaccard 0.403 vs.\ 0.652 on the real dataset), the pattern reverses: hybrid BGE-M3 beats BM25 by $+0.152$ MAP, the largest semantic advantage observed. The advantage of dense retrievers over lexical ones depends on the type of terminological variation and does not fully hold on documents with higher lexical similarity.
 
 \smallskip
 \noindent\textbf{Keywords:} information retrieval; product matching; semantic search; hybrid retrieval; SINAPI.
 \end{abstract}
 
 \begin{resumo}
-Este trabalho avalia BM25, E5 denso, E5 \emph{hybrid} e BGE-M3 \emph{hybrid} para \emph{product matching} de insumos do SINAPI, usando dois conjuntos com perfis lexicais distintos: um \emph{ground truth} real de 852 consultas, de 948 correla\c{c}\~oes produto-item validadas em uso, e um \emph{benchmark} sint\'etico de 48 consultas por substitui\c{c}\~ao de nota\c{c}\~ao t\'ecnica. No conjunto real, o BM25 obt\'em o maior MAP (0,797), \`a frente do BGE-M3 \emph{hybrid} (0,793), com 24$\times$ menos lat\^encia. No sint\'etico (Jaccard 0,403 contra 0,652 no real), o padr\~ao se inverte: o BGE-M3 \emph{hybrid} supera o BM25 em $+0{,}152$ de MAP, o maior ganho sem\^antico observado. Essa vantagem do denso sobre o lexical depende do tipo de varia\c{c}\~ao terminol\'ogica e n\~ao se sustenta em dados reais.
+Este trabalho avalia m\'etodos de recupera\c{c}\~ao de informa\c{c}\~ao (BM25, E5 denso, E5 \emph{hybrid} e BGE-M3 \emph{hybrid}) para \emph{product matching} de insumos do SINAPI, usando conjuntos de dados com perfis lexicais distintos: um \emph{ground truth} real de 852 consultas, derivadas de 948 correla\c{c}\~oes consulta-item de uma plataforma de or\c{c}amenta\c{c}\~ao (PainelConstru, conjunto real), e um \emph{benchmark} sint\'etico de 48 consultas, constru\'ido por substitui\c{c}\~oes sistem\'aticas de nota\c{c}\~ao t\'ecnica. No conjunto real, o BM25 obt\'em o maior MAP (0,797), \`a frente do BGE-M3 \emph{hybrid} (0,793), com 24 vezes menos lat\^encia. No conjunto sint\'etico, constru\'ido para ter baixa sobreposi\c{c}\~ao lexical deliberada (Jaccard 0,403 contra 0,652 no conjunto real), o padr\~ao se inverte: o BGE-M3 \emph{hybrid} supera o BM25 em $+0{,}152$ de MAP, a maior vantagem sem\^antica observada. A vantagem de \emph{retrievers} densos sobre o lexical depende do tipo de varia\c{c}\~ao terminol\'ogica e n\~ao se sustenta integralmente em documentos com maior similaridade lexical.
 
 \smallskip
 \noindent\textbf{Palavras-chave:} recupera\c{c}\~ao de informa\c{c}\~ao; \emph{product matching}; busca sem\^antica; recupera\c{c}\~ao h\'ibrida; SINAPI.
@@ -40,7 +40,7 @@ Este trabalho avalia BM25, E5 denso, E5 \emph{hybrid} e BGE-M3 \emph{hybrid} par
 
 A recupera\c{c}\~ao eficiente de informa\c{c}\~oes em bases t\'ecnicas \'e um desafio recorrente em sistemas de apoio \`a engenharia, compras p\'ublicas e or\c{c}amenta\c{c}\~ao, agravado pela quantidade de itens e varia\c{c}\~oes terminol\'ogicas t\'ipicas do dom\'inio da constru\c{c}\~ao civil -- um problema pr\'oximo ao de \emph{product matching} em cat\'alogos de produtos \cite{peeters:20}. No Brasil, o SINAPI \'e a principal base de refer\^encia de custos para obras p\'ublicas, mas a busca por itens \'e dificultada pela dist\^ancia entre a forma como usu\'arios descrevem produtos e a descri\c{c}\~ao oficial do cat\'alogo.
 
-Este trabalho avalia m\'etodos lexicais, densos e h\'ibridos de recupera\c{c}\~ao de informa\c{c}\~ao sobre o cat\'alogo SINAPI usando dois conjuntos de dados com perfis lexicais deliberadamente distintos: (i) um \emph{ground truth} real de 852 consultas, derivadas de 948 correla\c{c}\~oes produto-item j\'a validadas em uso efetivo de uma plataforma de or\c{c}amenta\c{c}\~ao -- refletindo como usu\'arios reais descrevem produtos, com vocabul\'ario de fornecedor e abrevia\c{c}\~oes comerciais; e (ii) um \emph{benchmark} sint\'etico controlado de 48 consultas (\emph{ppc\_weak}), constru\'ido por fun\c{c}\~oes de rotulagem que substituem sistematicamente a nota\c{c}\~ao t\'ecnica da descri\c{c}\~ao oficial (ex.\ DN em mm~$\rightarrow$~polegadas), produzindo baixa sobreposi\c{c}\~ao lexical de forma deliberada. Comparar os dois conjuntos permite testar a hip\'otese de que \emph{retrievers} densos t\^em maior vantagem sobre o BM25 quanto maior a varia\c{c}\~ao lexical entre consulta e documento -- e verificar se essa vantagem, bem estabelecida para par\'afrases sem\^anticas controladas, se sustenta igualmente sobre vocabul\'ario real de produ\c{c}\~ao. C\'odigo, dados e resultados agregados est\~ao publicamente dispon\'iveis.\footnote{\url{https://github.com/igordaudt/Prod_Match_Eramia_26}}
+Este trabalho avalia m\'etodos lexicais, densos e h\'ibridos de recupera\c{c}\~ao de informa\c{c}\~ao sobre o cat\'alogo SINAPI usando os dois conjuntos descritos no Resumo, com perfis lexicais deliberadamente distintos. Comparar os dois conjuntos permite testar a hip\'otese de que \emph{retrievers} densos t\^em maior vantagem sobre o BM25 quanto maior a varia\c{c}\~ao lexical entre consulta e documento -- e verificar se essa vantagem, bem estabelecida para par\'afrases sem\^anticas controladas, se sustenta igualmente sobre vocabul\'ario real de produ\c{c}\~ao. C\'odigo e dados est\~ao publicamente dispon\'iveis.\footnote{\url{https://github.com/igordaudt/Prod_Match_Eramia_26}}
 
 \section{Materiais e M\'etodos}
 
@@ -48,7 +48,7 @@ Este trabalho avalia m\'etodos lexicais, densos e h\'ibridos de recupera\c{c}\~a
 
 \textbf{Conjunto sint\'etico controlado (\emph{ppc\_weak}).} Um segundo corpus, de 4.851 itens do cat\'alogo SINAPI, serve de base a um \emph{benchmark} de 48 consultas sobre 16 itens, constru\'ido por fun\c{c}\~oes de rotulagem que substituem sistematicamente a nota\c{c}\~ao t\'ecnica da descri\c{c}\~ao oficial (ex.\ DN em mm~$\rightarrow$~polegadas; remo\c{c}\~ao do termo ``sold\'avel''/``rosc\'avel''), produzindo consultas com Jaccard deliberadamente baixo em rela\c{c}\~ao ao item-alvo. Por usar numera\c{c}\~ao de item independente da do conjunto real, os dois conjuntos s\~ao avaliados separadamente, cada um sobre seu corpus nativo, e comparados no n\'ivel de m\'etricas agregadas.
 
-\textbf{M\'etodos.} Foram avaliados quatro m\'etodos, implementados localmente e sem servidor externo: BM25 \cite{robertson:09} ($k_1=1{,}2$, $b=0{,}75$); E5 \emph{multilingual} denso \cite{wang:22} (\texttt{multilingual-e5-small}, 384~dim.); E5 \emph{hybrid} (E5~+~BM25 via \emph{Reciprocal Rank Fusion}, RRF \cite{cormack:09}, $k=60$); e BGE-M3 \emph{hybrid} \cite{chen:24} (\texttt{bge-m3}, 1024~dim.~+~BM25 via RRF). Cada consulta retornou at\'e 100 candidatos; o \emph{cache} de \emph{embeddings} do BGE-M3 foi pr\'e-computado e validado contra cada corpus. Hardware: CPU Intel i7-10610U, 4 n\'ucleos, sem GPU. As m\'etricas de qualidade (MAP e NDCG@10/@100) s\~ao calculadas por consulta e macro-agregadas, sendo invariantes \`a escala absoluta dos scores de cada m\'etodo. Adicionalmente, calculou-se a similaridade de Jaccard (interse\c{c}\~ao/uni\~ao de tokens) entre cada consulta e a descri\c{c}\~ao do item-alvo, nos dois conjuntos.
+\textbf{M\'etodos.} Foram avaliados quatro m\'etodos, implementados localmente: BM25 \cite{robertson:09}; E5 \emph{multilingual} denso \cite{wang:22} (\texttt{multilingual-e5-small}); E5 \emph{hybrid} (E5~+~BM25 via \emph{Reciprocal Rank Fusion} \cite{cormack:09}); e BGE-M3 \emph{hybrid} \cite{chen:24} (\texttt{bge-m3}~+~BM25 via RRF). Cada consulta retornou at\'e 100 candidatos, em CPU, sem GPU. As m\'etricas (MAP e NDCG@10/@100) s\~ao calculadas por consulta e macro-agregadas, invariantes \`a escala absoluta dos scores. Calculou-se tamb\'em a similaridade de Jaccard entre cada consulta e a descri\c{c}\~ao do item-alvo, nos dois conjuntos.
 
 \section{Resultados}
 
@@ -74,7 +74,7 @@ E5 (denso) & 0,7116 & 0,9417 & 0,9930 & 283,3 \\
 \end{tabular}
 \end{table}
 
-A Tabela~\ref{tab:jaccard} confronta esse resultado com o do \emph{ppc\_weak} e com quartis de Jaccard dentro do conjunto real. O Jaccard m\'edio do conjunto real (0,649) \'e bem mais alto que o do \emph{ppc\_weak} (0,403). No \emph{ppc\_weak}, o BGE-M3 hybrid supera o BM25 em $+0{,}152$ de MAP -- a maior vantagem sem\^antica do estudo; no conjunto real, essa vantagem desaparece (BM25 $0{,}797$ vs.\ BGE-M3 hybrid $0{,}793$). Dentro do conjunto real, por\'em, a rela\c{c}\~ao entre Jaccard e vantagem sem\^antica \'e fraca e n\~ao mon\'otona (Spearman $\approx-0{,}07$; o quartil Q3, n\~ao o de menor Jaccard, tem o maior MAP) -- Jaccard baixo em dados reais tem causas heterog\^eneas (abrevia\c{c}\~oes, c\'odigos internos, erros de correla\c{c}\~ao), nem todas resol\'uveis por um \emph{embedding} gen\'erico.
+A Tabela~\ref{tab:jaccard} confronta esse resultado com o do \emph{ppc\_weak} e com quartis de Jaccard dentro do conjunto real. No \emph{ppc\_weak}, o BGE-M3 hybrid supera o BM25 em $+0{,}152$ de MAP -- a maior vantagem sem\^antica do estudo; no conjunto real, essa vantagem desaparece (BM25 $0{,}797$ vs.\ BGE-M3 hybrid $0{,}793$). Dentro do conjunto real, por\'em, a rela\c{c}\~ao entre Jaccard e vantagem sem\^antica \'e fraca e n\~ao mon\'otona (Spearman $\approx-0{,}07$; o quartil Q3, n\~ao o de menor Jaccard, tem o maior MAP) -- Jaccard baixo em dados reais tem causas heterog\^eneas (abrevia\c{c}\~oes, c\'odigos internos, erros de correla\c{c}\~ao) nem sempre resol\'uveis por \emph{embeddings}.
 
 \begin{table}[ht]
 \centering
@@ -100,53 +100,39 @@ Real -- geral & 852 & 0,649 & 0,797 & 0,793 \\
 \end{tabular}
 \end{table}
 
-O BGE-M3 denso puro, avaliado apenas no conjunto sint\'etico, obt\'em ali MAP$=0{,}723$ -- o maior valor entre os cinco m\'etodos. Uma modelagem de t\'opicos complementar (BERTopic) identificou 90 t\'opicos no corpus real: a vantagem do BM25 se concentra em fam\'ilias com terminologia t\'ecnica exata, e o BGE-M3 hybrid vence em fam\'ilias com maior varia\c{c}\~ao comercial -- o efeito n\~ao \'e uniforme.
+O BGE-M3 denso puro, avaliado apenas no conjunto sint\'etico, obt\'em ali MAP$=0{,}723$ -- o maior valor entre os cinco m\'etodos. Uma modelagem de t\'opicos complementar (BERTopic) identificou 90 t\'opicos no corpus real: a vantagem do BM25 concentra-se em fam\'ilias com terminologia t\'ecnica exata, e a do BGE-M3 hybrid, em fam\'ilias com maior varia\c{c}\~ao comercial.
 
-\textbf{Divis\~ao por mediana de Jaccard.} Para testar a hip\'otese de forma mais direta, uniu-se os dois conjuntos numa base combinada de 900 consultas (852 reais + 48 sint\'eticas, itens deduplicados por descri\c{c}\~ao) e dividiu-se pela mediana de Jaccard (0,754) em duas metades (Tabela~\ref{tab:split}). A vantagem sem\^antica (MAP BGE-M3 hybrid $-$ MAP BM25) \'e positiva na metade inferior ($+0{,}023$) e negativa na superior ($-0{,}013$) -- \textbf{hip\'otese confirmada}, com efeito modesto (a metade superior \'e quase s\'o consultas reais, 448 de 450).
+\textbf{Divis\~ao por mediana de Jaccard.} Para testar a hip\'otese de forma mais direta, uniu-se os dois conjuntos numa base combinada de 900 consultas e dividiu-se pela mediana de Jaccard (0,754) em duas metades. A vantagem sem\^antica (MAP BGE-M3 hybrid $-$ MAP BM25) \'e positiva na metade inferior ($+0{,}023$) e negativa na superior ($-0{,}013$) -- \textbf{hip\'otese confirmada}, com efeito modesto (a metade superior \'e quase s\'o consultas reais, 448 de 450). Para verificar se o padr\~ao depende da m\'etrica, recalculou-se tamb\'em o NDCG@10 e @100 por consulta (relev\^ancia bin\'aria, desconto logar\'itmico por posi\c{c}\~ao) e macro-agregou-se por metade (Tabela~\ref{tab:split}) -- mesma l\'ogica do MAP, invariante \`a escala absoluta do score. O NDCG reproduz o mesmo cruzamento nos dois cortes, com amplitude equivalente ($\approx0{,}029$ contra $0{,}036$ do MAP): duas m\'etricas de ranqueamento independentes apontando o mesmo efeito indicam que ele n\~ao \'e artefato da m\'etrica escolhida. Essa robustez depende de a m\'etrica ser calculada \emph{por consulta}: curvas Precis\~ao$\times$Recall por limiar global misturam scores n\~ao compar\'aveis entre consultas e penalizam m\'etodos lexicais como o BM25 -- por isso n\~ao s\~ao usadas aqui.
 
 \begin{table}[ht]
 \centering
 \small
-\caption{MAP por metade de Jaccard (900 consultas combinadas)}
+\caption{MAP e NDCG por metade de Jaccard (900 consultas combinadas)}
 \label{tab:split}
-\begin{tabular}{|l|c|c|c|c|}
+\begin{tabular}{|l|l|c|c|c|}
 \hline
-\textbf{Metade} & \textbf{Jaccard} & \textbf{BM25} & \textbf{BGE-M3 h.} & \textbf{Vant. sem.} \\
+\textbf{M\'etrica} & \textbf{Metade} & \textbf{BM25} & \textbf{BGE-M3 h.} & \textbf{Vant. sem.} \\
 \hline
-Inferior ($<0{,}754$) & 0,447 & 0,7165 & 0,7396 & $+0{,}023$ \\
+MAP & Inferior ($<0{,}754$) & 0,7165 & 0,7396 & $+0{,}023$ \\
 \hline
-Superior ($\geq0{,}754$) & 0,825 & 0,8516 & 0,8382 & $-0{,}013$ \\
+MAP & Superior ($\geq0{,}754$) & 0,8516 & 0,8382 & $-0{,}013$ \\
 \hline
-\end{tabular}
-\end{table}
-
-\textbf{Confirma\c{c}\~ao por NDCG.} Para verificar se o padr\~ao depende da m\'etrica, recalculou-se o NDCG por consulta (relev\^ancia bin\'aria, desconto logar\'itmico por posi\c{c}\~ao, normalizado pelo DCG ideal da pr\'opria consulta) e macro-agregou-se por metade (Tabela~\ref{tab:ndcg}) -- mesma l\'ogica de agrega\c{c}\~ao do MAP, invariante \`a escala absoluta do score. O NDCG reproduz o mesmo cruzamento nos dois cortes: o BGE-M3 hybrid lidera na metade de menor Jaccard e o BM25 o ultrapassa na de maior, com amplitude equivalente ($\approx0{,}029$ contra $0{,}036$ do MAP). Duas m\'etricas de ranqueamento independentes apontando o mesmo cruzamento indicam que o efeito n\~ao \'e artefato da m\'etrica escolhida. Vale notar que essa robustez depende de a m\'etrica ser calculada \emph{por consulta}: curvas Precis\~ao$\times$Recall agregadas por um limiar de score global misturam consultas cujos scores n\~ao s\~ao compar\'aveis entre si e penalizam sistematicamente m\'etodos lexicais de score bruto como o BM25 -- por isso n\~ao s\~ao usadas aqui para comparar m\'etodos.
-
-\begin{table}[ht]
-\centering
-\small
-\caption{NDCG por metade de Jaccard (900 consultas combinadas)}
-\label{tab:ndcg}
-\begin{tabular}{|l|l|c|c|c|c|c|}
+NDCG@10 & Inferior & 0,7769 & \textbf{0,7962} & $+0{,}019$ \\
 \hline
-\textbf{M\'etrica} & \textbf{Metade} & \textbf{BM25} & \textbf{E5} & \textbf{E5 h.} & \textbf{BGE-M3 h.} & \textbf{Vant. sem.} \\
+NDCG@10 & Superior & \textbf{0,8914} & 0,8813 & $-0{,}010$ \\
 \hline
-NDCG@10 & Inferior & 0,7769 & 0,7323 & 0,7816 & \textbf{0,7962} & $+0{,}019$ \\
+NDCG@100 & Inferior & 0,7891 & \textbf{0,8082} & $+0{,}019$ \\
 \hline
-NDCG@10 & Superior & \textbf{0,8914} & 0,7993 & 0,8485 & 0,8813 & $-0{,}010$ \\
-\hline
-NDCG@100 & Inferior & 0,7891 & 0,7492 & 0,7936 & \textbf{0,8082} & $+0{,}019$ \\
-\hline
-NDCG@100 & Superior & \textbf{0,8921} & 0,8072 & 0,8496 & 0,8821 & $-0{,}010$ \\
+NDCG@100 & Superior & \textbf{0,8921} & 0,8821 & $-0{,}010$ \\
 \hline
 \end{tabular}
 \end{table}
 
 \section{Discuss\~ao e Conclus\~ao}
 
-O achado central \'e que a vantagem de \emph{retrievers} densos sobre o lexical -- clara no conjunto sint\'etico e confirmada, por MAP e NDCG, pela divis\~ao por mediana de Jaccard -- n\~ao se sustenta integralmente no conjunto real: baixa sobreposi\c{c}\~ao lexical \'e condi\c{c}\~ao necess\'aria, mas n\~ao suficiente, dependendo tamb\'em do tipo de diverg\^encia terminol\'ogica. Para \emph{product matching} sobre cat\'alogos t\'ecnicos brasileiros, o BM25 continua um \emph{baseline} forte e barato; a escolha de \emph{retriever} em produ\c{c}\~ao deveria ser validada sobre consultas reais dos pr\'oprios usu\'arios, n\~ao s\'o sobre \emph{benchmarks} sint\'eticos.
+O achado central \'e que a vantagem de \emph{retrievers} densos sobre o lexical -- clara no conjunto sint\'etico e confirmada, por MAP e NDCG, pela divis\~ao por mediana de Jaccard -- n\~ao se sustenta integralmente no conjunto real: baixa sobreposi\c{c}\~ao lexical \'e condi\c{c}\~ao necess\'aria, mas n\~ao suficiente, dependendo tamb\'em do tipo de diverg\^encia terminol\'ogica. Para \emph{product matching} sobre cat\'alogos t\'ecnicos brasileiros, o BM25 continua um \emph{baseline} forte e barato; a escolha de \emph{retriever} em produ\c{c}\~ao deve ser validada sobre consultas reais, n\~ao s\'o sint\'eticas.
 
-Como limita\c{c}\~oes: o BGE-M3 denso puro n\~ao foi avaliado sobre o conjunto real; as diferen\c{c}as de MAP/NDCG e a divis\~ao por mediana carecem de teste de signific\^ancia estat\'istica formal; a metade superior de Jaccard \'e composta quase s\'o por consultas reais (448/450); o \emph{ground truth} \'e de relev\^ancia bin\'aria, não graduados; e as correla\c{c}\~oes reais (subproduto do uso da plataforma), n\~ao foram auditadas especificamente para este experimento. Trabalhos futuros: BGE-M3 denso sobre o conjunto real, \emph{bootstrap} pareado sobre a diferen\c{c}a de vantagem sem\^antica entre metades, e amplia\c{c}\~ao do conjunto sint\'etico para outras classes de varia\c{c}\~ao (ex:   normas, press\~ao, bitolas).
+Como limita\c{c}\~oes: o BGE-M3 denso puro n\~ao foi avaliado sobre o conjunto real; as diferen\c{c}as de MAP/NDCG e a divis\~ao por mediana carecem de teste de signific\^ancia estat\'istica formal; a metade superior de Jaccard \'e composta quase s\'o por consultas reais (448/450); o \emph{ground truth} \'e de relev\^ancia bin\'aria, n\~ao graduada; e as correla\c{c}\~oes reais n\~ao foram auditadas especificamente para este experimento. Trabalhos futuros: BGE-M3 denso sobre o conjunto real e \emph{bootstrap} pareado sobre a diferen\c{c}a de vantagem sem\^antica entre metades.
 
 \bibliographystyle{sbc}
 \bibliography{references}
