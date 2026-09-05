@@ -1,0 +1,13 @@
+sentence-transformers>=5.3,<6
+qdrant-client>=1.17,<2
+matplotlib>=3.10,<4
+numpy>=1.26,<3
+regex>=2024.1
+nltk>=3.9,<4
+pandas>=2.2
+
+# Apenas para scripts/eda_bertopic.py (modelagem de topicos)
+scikit-learn>=1.4
+umap-learn>=0.5
+hdbscan>=0.8
+bertopic>=0.16

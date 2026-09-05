@@ -1,0 +1,42 @@
+\begin{thebibliography}{}
+
+\bibitem[Chen et~al. 2024]{chen:24}
+Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., and Liu, Z. (2024).
+\newblock {BGE} {M3}-embedding: Multi-lingual, multi-functionality,
+  multi-granularity text embeddings through self-knowledge distillation.
+\newblock arXiv preprint arXiv:2402.03216.
+
+\bibitem[Cormack et~al. 2009]{cormack:09}
+Cormack, G.~V., Clarke, C.~L.~A., and Buettcher, S. (2009).
+\newblock Reciprocal rank fusion outperforms condorcet and individual rank
+  learning methods.
+\newblock In {\em Proceedings of the 32nd International ACM SIGIR Conference on
+  Research and Development in Information Retrieval (SIGIR'09)}, pages
+  758--759, New York. ACM.
+
+\bibitem[{PainelConstru} 2026]{painelconstru:26}
+{PainelConstru} (2026).
+\newblock Painel{C}onstru: plataforma de or\c{c}amenta\c{c}\~ao e
+  \emph{marketplace} para a constru\c{c}\~ao civil.
+\newblock \url{https://www.painelconstru.com.br}.
+\newblock Acesso em: 5 set. 2026.
+
+\bibitem[Peeters et~al. 2020]{peeters:20}
+Peeters, R., Bizer, C., and Glava{\v{s}}, G. (2020).
+\newblock Intermediate training of {BERT} for product matching.
+\newblock In {\em Proceedings of the 2nd International Workshop on Challenges
+  and Experiences from Data Integration to Knowledge Graphs (DI2KG 2020)},
+  volume 2726 of {\em CEUR Workshop Proceedings}.
+
+\bibitem[Robertson and Zaragoza 2009]{robertson:09}
+Robertson, S. and Zaragoza, H. (2009).
+\newblock The probabilistic relevance framework: {BM25} and beyond.
+\newblock {\em Foundations and Trends in Information Retrieval}, 3(4):333--389.
+
+\bibitem[Wang et~al. 2022]{wang:22}
+Wang, L., Yang, N., Huang, X., Jiao, B., Yang, L., Jiang, D., Majumder, R., and
+  Wei, F. (2022).
+\newblock Text embeddings by weakly-supervised contrastive pre-training.
+\newblock arXiv preprint arXiv:2212.03533.
+
+\end{thebibliography}

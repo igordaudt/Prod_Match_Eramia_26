@@ -1,0 +1,384 @@
+{
+  "source": "SINAPI",
+  "mutation_strategy": "weak_supervision_labeling_functions",
+  "description": "Consultas geradas por funcoes de rotulagem (labeling functions) no estilo Snorkel/Panda. Cada grupo testa uma LF especifica: equivalencia de notacao (polegada/DN/mm), ambiguidade de serie PVC, tipo de conexao (soldavel vs roscavel), sinonimia curva/joelho, angulo omitido, variante de luva. Permite avaliar se o reranker melhora ou piora nesses casos.",
+  "labeling_functions": {
+    "LF_notacao_polegada_dn": "Consulta usa notacao em polegadas; produto SINAPI usa DN/mm. Equivalencia: 1/2 pol=15mm, 3/4 pol=20mm, 1 pol=25mm, 1.5 pol=40mm, 2 pol=50mm.",
+    "LF_notacao_classe_material": "Mesma dimensao (DN), classes/aplicacoes distintas: Classe A (gas) vs Classe E (hidraulica predial). Sem mencao de classe, ambos sao validos.",
+    "LF_serie_pvc": "Mesma DN e aplicacao, series PVC distintas: Serie Normal vs Serie R. Sem especificar serie, ambos atendem.",
+    "LF_conexao_soldavel": "Soldavel simples vs soldavel com rosca: conexao principal identica (colar soldado), saida difere (simples vs roscada). Sem especificar saida, ambos atendem.",
+    "LF_sinonimia_curva_joelho": "Curva 90 graus e joelho 90 graus sao sinonimos tecnicos em muitos contextos (curva = bend, joelho = elbow). Consulta usando um deve recuperar o outro.",
+    "LF_angulo_omitido": "Angulo nao especificado na consulta (45 ou 90 graus): ambos sao validos quando o angulo nao e um requisito obrigatorio da consulta.",
+    "LF_variante_luva": "Luva simples vs luva de correr: dimensao e material identicos, funcionalidade ligeiramente diferente. Consulta generica deve recuperar ambas."
+  },
+  "items": [
+    {
+      "codigo": 21010,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 25 MM (1\"), E = 2,65 MM, *2,11* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa notacao em polegadas; produto SINAPI descreve como DN 25 MM (1\"). Testa se retrieval/reranking equipara '1 polegada' com 'DN 25 MM'.",
+      "mutations": [
+        {
+          "mut_ID": 13645,
+          "descricao_mutada": "tubo aco galvanizado classe leve 1 polegada costura",
+          "relevant_item_ids": [21010]
+        },
+        {
+          "mut_ID": 13646,
+          "descricao_mutada": "tubo galvanizado costura leve 1 pol nbr 5580",
+          "relevant_item_ids": [21010]
+        },
+        {
+          "mut_ID": 13647,
+          "descricao_mutada": "tubo ag galvanizado com costura 1 polegada classe leve",
+          "relevant_item_ids": [21010]
+        }
+      ]
+    },
+    {
+      "codigo": 21013,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 50 MM (2\"), E = 3,00 MM, *4,40* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa '2 polegadas'; produto diz 'DN 50 MM (2\")'. Caso simetrico ao anterior para validar consistencia.",
+      "mutations": [
+        {
+          "mut_ID": 13648,
+          "descricao_mutada": "tubo aco galvanizado classe leve 2 polegadas costura",
+          "relevant_item_ids": [21013]
+        },
+        {
+          "mut_ID": 13649,
+          "descricao_mutada": "tubo galvanizado costura leve 2 pol nbr 5580",
+          "relevant_item_ids": [21013]
+        },
+        {
+          "mut_ID": 13650,
+          "descricao_mutada": "tubo ag com costura duas polegadas classe leve galvanizado",
+          "relevant_item_ids": [21013]
+        }
+      ]
+    },
+    {
+      "codigo": 21008,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 15 MM (1/2\"), E = 2,25 MM, *1,2* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa '1/2 polegada'; produto diz 'DN 15 MM (1/2\")'. Testa equiparacao de fracao de polegada com DN em mm.",
+      "mutations": [
+        {
+          "mut_ID": 13675,
+          "descricao_mutada": "tubo aco galvanizado classe leve 1/2 polegada costura",
+          "relevant_item_ids": [21008]
+        },
+        {
+          "mut_ID": 13676,
+          "descricao_mutada": "tubo galvanizado costura leve 1/2 pol nbr 5580",
+          "relevant_item_ids": [21008]
+        },
+        {
+          "mut_ID": 13677,
+          "descricao_mutada": "tubo ag galvanizado com costura meia polegada classe leve",
+          "relevant_item_ids": [21008]
+        }
+      ]
+    },
+    {
+      "codigo": 21009,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 20 MM (3/4\"), E = 2,25 MM, *1,3* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa '3/4 polegada'; produto diz 'DN 20 MM (3/4\")'. Testa fracao 3/4 vs DN 20 MM.",
+      "mutations": [
+        {
+          "mut_ID": 13678,
+          "descricao_mutada": "tubo aco galvanizado classe leve 3/4 polegada costura",
+          "relevant_item_ids": [21009]
+        },
+        {
+          "mut_ID": 13679,
+          "descricao_mutada": "tubo galvanizado costura leve 3/4 pol nbr 5580",
+          "relevant_item_ids": [21009]
+        },
+        {
+          "mut_ID": 13680,
+          "descricao_mutada": "tubo ag galvanizado com costura tres quartos de polegada classe leve",
+          "relevant_item_ids": [21009]
+        }
+      ]
+    },
+    {
+      "codigo": 21011,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 32 MM (1 1/4\"), E = 2,65 MM, *2,71* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa '1 1/4 polegada'; produto diz 'DN 32 MM (1 1/4\")'. Testa fracao composta de polegada vs DN em mm.",
+      "mutations": [
+        {
+          "mut_ID": 13681,
+          "descricao_mutada": "tubo aco galvanizado classe leve 1 1/4 polegada costura",
+          "relevant_item_ids": [21011]
+        },
+        {
+          "mut_ID": 13682,
+          "descricao_mutada": "tubo galvanizado costura leve 1 1/4 pol nbr 5580",
+          "relevant_item_ids": [21011]
+        },
+        {
+          "mut_ID": 13683,
+          "descricao_mutada": "tubo ag galvanizado com costura um e um quarto polegada classe leve",
+          "relevant_item_ids": [21011]
+        }
+      ]
+    },
+    {
+      "codigo": 21012,
+      "descricao_original": "TUBO ACO GALVANIZADO COM COSTURA, CLASSE LEVE, DN 40 MM (1 1/2\"), E = 3,00 MM, *3,48* KG/M (NBR 5580)",
+      "lf": "LF_notacao_polegada_dn",
+      "note": "Query usa '1 1/2 polegada'; produto diz 'DN 40 MM (1 1/2\")'. Testa fracao 1.5 polegada vs DN 40 MM.",
+      "mutations": [
+        {
+          "mut_ID": 13684,
+          "descricao_mutada": "tubo aco galvanizado classe leve 1 1/2 polegada costura",
+          "relevant_item_ids": [21012]
+        },
+        {
+          "mut_ID": 13685,
+          "descricao_mutada": "tubo galvanizado costura leve 1 1/2 pol nbr 5580",
+          "relevant_item_ids": [21012]
+        },
+        {
+          "mut_ID": 13686,
+          "descricao_mutada": "tubo ag galvanizado com costura um e meio polegada classe leve",
+          "relevant_item_ids": [21012]
+        }
+      ]
+    },
+    {
+      "codigo": 39747,
+      "descricao_original": "TUBO DE COBRE CLASSE \"A\", DN = 1/2\" (15 MM), PARA INSTALACOES DE MEDIA PRESSAO PARA GASES COMBUSTIVEIS",
+      "lf": "LF_notacao_classe_material",
+      "note": "Mesmo DN 15mm, mas Classe A (gas) e Classe E (hidraulica predial) sao aplicacoes distintas. Consulta sem classe/aplicacao deve recuperar ambos. Produto 12713 e Classe E 15mm para hidraulica predial.",
+      "mutations": [
+        {
+          "mut_ID": 13651,
+          "descricao_mutada": "tubo cobre 15mm",
+          "relevant_item_ids": [39747, 12713]
+        },
+        {
+          "mut_ID": 13652,
+          "descricao_mutada": "tubo de cobre dn 15 mm instalacao predial",
+          "relevant_item_ids": [39747, 12713]
+        },
+        {
+          "mut_ID": 13653,
+          "descricao_mutada": "tubo cobre 1/2 polegada dn 15",
+          "relevant_item_ids": [39747, 12713]
+        }
+      ]
+    },
+    {
+      "codigo": 9836,
+      "descricao_original": "TUBO PVC SERIE NORMAL, DN 100 MM, PARA ESGOTO PREDIAL (NBR 5688)",
+      "lf": "LF_serie_pvc",
+      "note": "Mesma DN 100 MM e aplicacao esgoto predial, mas series diferentes: SERIE NORMAL (9836) vs SERIE R (9841, tambem valida para aguas pluviais). Consulta sem serie especificada deve recuperar ambos.",
+      "mutations": [
+        {
+          "mut_ID": 13654,
+          "descricao_mutada": "tubo pvc dn 100 esgoto predial",
+          "relevant_item_ids": [9836, 9841]
+        },
+        {
+          "mut_ID": 13655,
+          "descricao_mutada": "tubo pvc 100mm esgoto predial nbr 5688",
+          "relevant_item_ids": [9836, 9841]
+        },
+        {
+          "mut_ID": 13656,
+          "descricao_mutada": "tubo pvc para esgoto predial 100 mm",
+          "relevant_item_ids": [9836, 9841]
+        }
+      ]
+    },
+    {
+      "codigo": 9838,
+      "descricao_original": "TUBO PVC SERIE NORMAL, DN 50 MM, PARA ESGOTO PREDIAL (NBR 5688)",
+      "lf": "LF_serie_pvc",
+      "note": "Mesmo padrao da LF_serie_pvc mas para DN 50 MM. Serie Normal (9838) vs Serie R (20068).",
+      "mutations": [
+        {
+          "mut_ID": 13657,
+          "descricao_mutada": "tubo pvc dn 50 esgoto predial",
+          "relevant_item_ids": [9838, 20068]
+        },
+        {
+          "mut_ID": 13658,
+          "descricao_mutada": "tubo pvc 50mm esgoto predial",
+          "relevant_item_ids": [9838, 20068]
+        },
+        {
+          "mut_ID": 13659,
+          "descricao_mutada": "tubo pvc esgoto predial diametro 50 mm",
+          "relevant_item_ids": [9838, 20068]
+        }
+      ]
+    },
+    {
+      "codigo": 3529,
+      "descricao_original": "JOELHO PVC, SOLDAVEL, 90 GRAUS, 25 MM, COR MARROM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_conexao_soldavel",
+      "note": "Joelho soldavel 25mm em tres variantes: simples (3529), soldavel com rosca 1/2 (3531), soldavel com rosca 3/4 (3522). Conexao principal e sempre soldada; a diferenca e a saida. Consulta sem especificar saida deve recuperar os tres.",
+      "mutations": [
+        {
+          "mut_ID": 13660,
+          "descricao_mutada": "joelho pvc 90 graus 25mm agua fria predial",
+          "relevant_item_ids": [3529, 3531, 3522]
+        },
+        {
+          "mut_ID": 13661,
+          "descricao_mutada": "joelho pvc soldavel 90 graus 25 mm agua fria",
+          "relevant_item_ids": [3529, 3531, 3522]
+        },
+        {
+          "mut_ID": 13662,
+          "descricao_mutada": "joelho 90 graus pvc 25mm cor marrom para agua fria",
+          "relevant_item_ids": [3529, 3531, 3522]
+        }
+      ]
+    },
+    {
+      "codigo": 3542,
+      "descricao_original": "JOELHO PVC, SOLDAVEL, 90 GRAUS, 20 MM, COR MARROM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_conexao_soldavel",
+      "note": "Joelho soldavel 20mm em duas variantes: simples (3542) e soldavel com rosca 1/2 (3521). Conexao principal sempre soldada; saida difere. Consulta sem especificar saida deve recuperar ambos.",
+      "mutations": [
+        {
+          "mut_ID": 13687,
+          "descricao_mutada": "joelho pvc 90 graus 20mm agua fria predial",
+          "relevant_item_ids": [3542, 3521]
+        },
+        {
+          "mut_ID": 13688,
+          "descricao_mutada": "joelho pvc soldavel 90 graus 20 mm agua fria",
+          "relevant_item_ids": [3542, 3521]
+        },
+        {
+          "mut_ID": 13689,
+          "descricao_mutada": "joelho 90 graus pvc 20mm cor marrom para agua fria",
+          "relevant_item_ids": [3542, 3521]
+        }
+      ]
+    },
+    {
+      "codigo": 3536,
+      "descricao_original": "JOELHO PVC, SOLDAVEL, 90 GRAUS, 32 MM, COR MARROM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_conexao_soldavel",
+      "note": "Joelho soldavel 32mm em duas variantes: simples (3536) e soldavel com rosca 3/4 (3527). Mesmo padrao do 25mm, agora para DN 32.",
+      "mutations": [
+        {
+          "mut_ID": 13690,
+          "descricao_mutada": "joelho pvc 90 graus 32mm agua fria predial",
+          "relevant_item_ids": [3536, 3527]
+        },
+        {
+          "mut_ID": 13691,
+          "descricao_mutada": "joelho pvc soldavel 90 graus 32 mm agua fria",
+          "relevant_item_ids": [3536, 3527]
+        },
+        {
+          "mut_ID": 13692,
+          "descricao_mutada": "joelho 90 graus pvc 32mm cor marrom para agua fria",
+          "relevant_item_ids": [3536, 3527]
+        }
+      ]
+    },
+    {
+      "codigo": 1956,
+      "descricao_original": "CURVA DE PVC 90 GRAUS, SOLDAVEL, 25 MM, COR MARROM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_sinonimia_curva_joelho",
+      "note": "CURVA 90 graus (1956) e JOELHO 90 graus (3529) sao sinonimos tecnicos para uma conexao angulada de 90 graus em PVC soldavel 25mm para agua fria. Consulta usando 'joelho' deve recuperar ambos, e vice-versa.",
+      "mutations": [
+        {
+          "mut_ID": 13663,
+          "descricao_mutada": "curva joelho pvc soldavel 90 graus 25mm agua fria",
+          "relevant_item_ids": [1956, 3529]
+        },
+        {
+          "mut_ID": 13664,
+          "descricao_mutada": "joelho curva 90 pvc 25 mm soldavel agua fria predial",
+          "relevant_item_ids": [1956, 3529]
+        },
+        {
+          "mut_ID": 13665,
+          "descricao_mutada": "conexao 90 graus pvc soldavel 25mm marrom agua fria",
+          "relevant_item_ids": [1956, 3529]
+        }
+      ]
+    },
+    {
+      "codigo": 3529,
+      "descricao_original": "JOELHO PVC, SOLDAVEL, 90 GRAUS, 25 MM, COR MARROM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_angulo_omitido",
+      "note": "Joelho PVC soldavel 25mm agua fria em dois angulos: 90 graus (3529) e 45 graus (3500). Quando o angulo nao e especificado na consulta, ambos sao validos.",
+      "mutations": [
+        {
+          "mut_ID": 13666,
+          "descricao_mutada": "joelho pvc soldavel 25mm agua fria predial",
+          "relevant_item_ids": [3529, 3500]
+        },
+        {
+          "mut_ID": 13667,
+          "descricao_mutada": "joelho pvc 25mm soldavel marrom para agua fria",
+          "relevant_item_ids": [3529, 3500]
+        },
+        {
+          "mut_ID": 13668,
+          "descricao_mutada": "joelho pvc 25 mm agua fria predial soldavel",
+          "relevant_item_ids": [3529, 3500]
+        }
+      ]
+    },
+    {
+      "codigo": 3904,
+      "descricao_original": "LUVA PVC SOLDAVEL, 25 MM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_variante_luva",
+      "note": "Luva PVC soldavel simples (3904) vs Luva de Correr para tubo soldavel (3873): mesma dimensao 25mm e material PVC para agua fria. 'Luva de correr' e uma variante reparavel, mas consulta generica deve recuperar ambas.",
+      "mutations": [
+        {
+          "mut_ID": 13669,
+          "descricao_mutada": "luva pvc 25mm agua fria predial",
+          "relevant_item_ids": [3904, 3873]
+        },
+        {
+          "mut_ID": 13670,
+          "descricao_mutada": "luva pvc soldavel 25 mm para agua fria",
+          "relevant_item_ids": [3904, 3873]
+        },
+        {
+          "mut_ID": 13671,
+          "descricao_mutada": "luva pvc 25mm soldavel marrom agua fria predial",
+          "relevant_item_ids": [3904, 3873]
+        }
+      ]
+    },
+    {
+      "codigo": 3904,
+      "descricao_original": "LUVA PVC SOLDAVEL, 25 MM, PARA AGUA FRIA PREDIAL",
+      "lf": "LF_conexao_soldavel",
+      "note": "Luva soldavel simples (3904) vs luva soldavel com rosca 25x1/2 (3856) vs luva soldavel com rosca 25x3/4 (3906): todas com conexao soldada em 25mm para agua fria. Consulta sem especificar saida deve recuperar as tres.",
+      "mutations": [
+        {
+          "mut_ID": 13672,
+          "descricao_mutada": "luva pvc soldavel 25mm com rosca agua fria",
+          "relevant_item_ids": [3904, 3856, 3906]
+        },
+        {
+          "mut_ID": 13673,
+          "descricao_mutada": "luva pvc 25 mm soldavel para agua fria predial",
+          "relevant_item_ids": [3904, 3856, 3906]
+        },
+        {
+          "mut_ID": 13674,
+          "descricao_mutada": "luva soldavel pvc 25mm agua fria",
+          "relevant_item_ids": [3904, 3856, 3906]
+        }
+      ]
+    }
+  ]
+}

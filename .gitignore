@@ -1,0 +1,28 @@
+# Ver REPRODUTIBILIDADE.md para a justificativa de cada exclusão.
+
+# Caches de embeddings (regeneráveis pelos scripts, caros em CPU)
+cache/
+eda/*.npy
+
+# Saídas brutas de retrieval (regeneráveis por run_retrieval*.py)
+# sinapi_llm_candidates.jsonl e sinapi_llm_retrieval_results.json:
+# results/real_295/sinapi_llm_candidates.jsonl tem 121 MB, acima do
+# limite de 100 MB do GitHub.
+results/*/sinapi_llm_candidates.jsonl
+results/*/sinapi_llm_retrieval_results.json
+results/*/sinapi_llm_precision_recall.csv
+results/*/sinapi_llm_precision_recall_by_rank.csv
+results/*/sinapi_llm_precision_recall_by_rank.png
+results/*/sinapi_llm_precision_recall_vs_threshold.png
+results/*/run.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Artefatos de compilação LaTeX (manter apenas .tex/.bib/.bbl/.pdf finais)
+paper/latex/*.aux
+paper/latex/*.log
+paper/latex/*.blg
+paper/latex/*.out
+paper/latex/page-*.png
