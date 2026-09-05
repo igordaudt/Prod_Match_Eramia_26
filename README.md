@@ -27,7 +27,6 @@ pdflatex artigo_eramia_2026.tex
 ```
 
 **Pendências antes de submeter:**
-- **Autoria:** nome do autor e afiliação foram preenchidos como `Igor Daudt` / `Programa de Pós-Graduação em Computação (PPGC)`, inferidos do e-mail de contato — **confirme/corrija** no preâmbulo do `.tex` (marcado com `% TODO(autor)`).
 - Revisão final do texto.
 - A versão longa (`paper/artigo_eramia_2026.md`) ainda não incorpora as análises exploratórias mais recentes (base combinada, divisão por mediana de Jaccard — ver abaixo); isso é intencional, aguardando decisão sobre o que entra no artigo.
 

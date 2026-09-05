@@ -7,13 +7,13 @@
 
 \sloppy
 
-% TODO(autor): confirmar nome completo, afiliacao e e-mail antes da submissao.
 \title{Recupera\c{c}\~ao de Informa\c{c}\~ao para \emph{Product Matching} de Insumos SINAPI}
 
-\author{Igor Daudt\inst{1}}
+\author{Igor Mundstock Daudt\inst{1}}
 
-\address{Programa de P\'os-Gradua\c{c}\~ao em Computa\c{c}\~ao (PPGC)
-  % TODO(autor): confirmar nome/endereco completo da instituicao
+\address{Programa de P\'os-Gradua\c{c}\~ao em Computa\c{c}\~ao (PPGC)\\
+  Instituto de Inform\'atica -- Universidade Federal do Rio Grande do Sul (UFRGS)\\
+  Porto Alegre -- RS -- Brasil
   \email{igor.daudt@ufrgs.br}
 }
 
@@ -22,14 +22,14 @@
 \maketitle
 
 \begin{abstract}
-This work evaluates information retrieval methods (BM25, dense E5, hybrid E5, and hybrid BGE-M3) for product matching of SINAPI technical items, using two datasets with deliberately distinct lexical profiles: a real ground truth of 852 queries derived from 948 product-item correlations already validated in production use of a budgeting platform, and a controlled synthetic benchmark of 48 queries built from systematic technical-notation substitutions. On the real dataset, BM25 achieves the highest MAP (0.797), ahead of hybrid BGE-M3 (0.793), with 24 times lower latency. On the synthetic dataset, built for deliberately low lexical overlap (Jaccard 0.403 vs.\ 0.652 on the real one), the pattern reverses: hybrid BGE-M3 beats BM25 by +0.152 MAP, the largest semantic advantage observed. The advantage of dense retrievers over lexical ones depends on the type of terminological variation and does not fully hold on real production data.
+This work evaluates BM25, dense E5, hybrid E5, and hybrid BGE-M3 for product matching of SINAPI items, using two datasets with distinct lexical profiles: a real ground truth of 852 queries from 948 product-item correlations validated in production, and a synthetic benchmark of 48 queries from technical-notation substitutions. On the real dataset, BM25 attains the highest MAP (0.797), ahead of hybrid BGE-M3 (0.793), with 24$\times$ lower latency. On the synthetic one (Jaccard 0.403 vs.\ 0.652 on the real dataset), the pattern reverses: hybrid BGE-M3 beats BM25 by $+0.152$ MAP, the largest semantic gain observed. This advantage of dense over lexical retrieval depends on the terminological variation type and does not fully hold on real data.
 
 \smallskip
 \noindent\textbf{Keywords:} information retrieval; product matching; semantic search; hybrid retrieval; SINAPI.
 \end{abstract}
 
 \begin{resumo}
-Este trabalho avalia m\'etodos de recupera\c{c}\~ao de informa\c{c}\~ao (BM25, E5 denso, E5 \emph{hybrid} e BGE-M3 \emph{hybrid}) para \emph{product matching} de insumos do SINAPI, usando dois conjuntos de dados com perfis lexicais deliberadamente distintos: um \emph{ground truth} real de 852 consultas, derivadas de 948 correla\c{c}\~oes produto-item j\'a validadas em uso efetivo de uma plataforma de or\c{c}amenta\c{c}\~ao, e um \emph{benchmark} sint\'etico controlado de 48 consultas, constru\'ido por substitui\c{c}\~oes sistem\'aticas de nota\c{c}\~ao t\'ecnica. No conjunto real, o BM25 obt\'em o maior MAP (0,797), \`a frente do BGE-M3 \emph{hybrid} (0,793), com 24 vezes menos lat\^encia. No conjunto sint\'etico, constru\'ido para ter baixa sobreposi\c{c}\~ao lexical deliberada (Jaccard 0,403 contra 0,652 no conjunto real), o padr\~ao se inverte: o BGE-M3 \emph{hybrid} supera o BM25 em $+0{,}152$ de MAP, a maior vantagem sem\^antica observada. A vantagem de \emph{retrievers} densos sobre o lexical depende do tipo de varia\c{c}\~ao terminol\'ogica e n\~ao se sustenta integralmente em documentos com maior similaridade lexical.
+Este trabalho avalia BM25, E5 denso, E5 \emph{hybrid} e BGE-M3 \emph{hybrid} para \emph{product matching} de insumos do SINAPI, usando dois conjuntos com perfis lexicais distintos: um \emph{ground truth} real de 852 consultas, de 948 correla\c{c}\~oes produto-item validadas em uso, e um \emph{benchmark} sint\'etico de 48 consultas por substitui\c{c}\~ao de nota\c{c}\~ao t\'ecnica. No conjunto real, o BM25 obt\'em o maior MAP (0,797), \`a frente do BGE-M3 \emph{hybrid} (0,793), com 24$\times$ menos lat\^encia. No sint\'etico (Jaccard 0,403 contra 0,652 no real), o padr\~ao se inverte: o BGE-M3 \emph{hybrid} supera o BM25 em $+0{,}152$ de MAP, o maior ganho sem\^antico observado. Essa vantagem do denso sobre o lexical depende do tipo de varia\c{c}\~ao terminol\'ogica e n\~ao se sustenta em dados reais.
 
 \smallskip
 \noindent\textbf{Palavras-chave:} recupera\c{c}\~ao de informa\c{c}\~ao; \emph{product matching}; busca sem\^antica; recupera\c{c}\~ao h\'ibrida; SINAPI.
