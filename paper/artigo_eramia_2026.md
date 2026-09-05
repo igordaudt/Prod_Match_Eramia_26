@@ -29,6 +29,8 @@ Este artigo **não aborda reranking** — o foco é isolar e comparar a etapa de
 
 Os objetivos específicos são: (i) construir e documentar um benchmark de retrieval a partir de correlações reais de produção; (ii) comparar BM25, E5 (denso e híbrido) e BGE-M3 (híbrido) sobre os dois conjuntos, em termos de MAP, precisão, recall e latência; (iii) caracterizar o corpus real via EDA/modelagem de tópicos; e (iv) usar a similaridade de Jaccard entre consulta e item-alvo como variável explicativa para a diferença de comportamento entre os dois conjuntos.
 
+Código, dados e resultados agregados estão publicamente disponíveis em: <https://github.com/igordaudt/Prod_Match_Eramia_26>.
+
 ## 2. Trabalhos Relacionados e Fundamentação
 
 ### 2.1 Product Matching e Entity Matching
