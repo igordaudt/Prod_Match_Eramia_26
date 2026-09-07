@@ -20,13 +20,8 @@ results/*/run.log
 __pycache__/
 *.pyc
 
-# Artefatos de compilação LaTeX (manter apenas .tex/.bib/.bbl/.pdf finais)
-paper_v2/latex/*.aux
-paper_v2/latex/*.log
-paper_v2/latex/*.blg
-paper_v2/latex/*.out
-paper_v2/latex/page-*.png
-
-# paper/ (v1): mantida apenas localmente, fora do repositorio remoto,
-# para evitar confusao com paper_v2/. Ver README.md.
+# paper/ e paper_v2/: mantidas apenas localmente, fora do repositorio
+# remoto -- o artigo (ambas as versoes) fica de fora do GitHub para nao
+# comprometer o anonimato da submissao em revisao cega. Ver README.md.
 paper/
+paper_v2/
