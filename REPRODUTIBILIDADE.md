@@ -21,11 +21,11 @@ Este documento classifica cada pasta/arquivo do repositório em três grupos:
 | `normalization.py` | Normalização de texto usada pelos scripts de retrieval/EDA | Dependência direta do código acima |
 | `requirements.txt` | Dependências Python | Necessário para recriar o ambiente |
 | `README.md` | Documentação do repositório e ordem de execução | Guia de reprodução |
-| `paper/artigo_eramia_2026.md` | Versão longa do artigo | Fonte primária do texto |
-| `paper/latex/artigo_eramia_2026.tex`, `references.bib`, `sbc-template.sty`, `sbc.bst` | Versão SBC (4 páginas) e template | Fonte + template de compilação — sem eles o PDF não é reproduzível |
-| `paper/latex/artigo_eramia_2026.pdf` | PDF compilado final | Pequeno (168 KB); manter a versão submetida evita depender de recompilar para conferir o texto exato |
-| `paper/latex/artigo_eramia_2026.bbl` | Bibliografia pré-compilada | Pequeno (4 KB); garante que o PDF recompile mesmo sem rodar `bibtex` |
-| `paper/latex/figs/*.png` | Figuras usadas no `.tex` | Cópias das figuras finais de `eda/`/`results/` já selecionadas para o artigo |
+| `paper_v2/artigo_eramia_2026.md` | Versão longa do artigo | Fonte primária do texto |
+| `paper_v2/latex/artigo_eramia_2026.tex`, `references.bib`, `sbc-template.sty`, `sbc.bst` | Versão SBC (4 páginas) e template | Fonte + template de compilação — sem eles o PDF não é reproduzível |
+| `paper_v2/latex/artigo_eramia_2026.pdf` | PDF compilado final | Pequeno (168 KB); manter a versão submetida evita depender de recompilar para conferir o texto exato |
+| `paper_v2/latex/artigo_eramia_2026.bbl` | Bibliografia pré-compilada | Pequeno (4 KB); garante que o PDF recompile mesmo sem rodar `bibtex` |
+| `paper_v2/latex/figs/*.png` | Figuras usadas no `.tex` | Cópias das figuras finais de `eda/`/`results/` já selecionadas para o artigo |
 
 `data/combined_items_all.tsv` e `data/combined_queries_all.tsv` são, em teoria, regeneráveis por `scripts/build_combined_dataset.py` a partir dos arquivos acima (junção determinística, sem aleatoriedade). Estão listados aqui porque são pequenos (< 1 MB juntos) e alimentam diretamente `eda_bertopic.py`, `categ_map_analysis.py` e os scripts de Jaccard — versioná-los evita ter que refazer a etapa de junção antes de qualquer outra análise.
 

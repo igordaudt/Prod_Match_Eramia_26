@@ -4,10 +4,10 @@ Repositório do artigo **ERAMIA 2026**: avaliação de métodos de recuperação
 
 ## Versão para submissão (template SBC)
 
-`paper/latex/` contém o artigo formatado no template oficial da SBC (`Template_SBC/template-latex/`, usado pelo ERAMIA), **respeitando o limite de 4 páginas** da chamada de trabalhos, e já compilando para PDF sem erros:
+`paper_v2/latex/` contém o artigo formatado no template oficial da SBC (`Template_SBC/template-latex/`, usado pelo ERAMIA), **respeitando o limite de 4 páginas, incluindo referências**, e já compilando para PDF sem erros:
 
 ```
-paper/latex/
+paper_v2/latex/
 ├── artigo_eramia_2026.tex   # artigo completo no formato SBC (4 páginas)
 ├── references.bib           # bibliografia (BibTeX)
 ├── sbc-template.sty         # estilo oficial (copiado do template)
@@ -19,7 +19,7 @@ paper/latex/
 Para recompilar (requer alguma distribuição LaTeX, ex. MiKTeX/TeX Live):
 
 ```bash
-cd paper/latex
+cd paper_v2/latex
 pdflatex artigo_eramia_2026.tex
 bibtex artigo_eramia_2026
 pdflatex artigo_eramia_2026.tex
@@ -28,7 +28,8 @@ pdflatex artigo_eramia_2026.tex
 
 **Pendências antes de submeter:**
 - Revisão final do texto.
-- A versão longa (`paper/artigo_eramia_2026.md`) ainda não incorpora as análises exploratórias mais recentes (base combinada, divisão por mediana de Jaccard — ver abaixo); isso é intencional, aguardando decisão sobre o que entra no artigo.
+
+> **Nota:** a pasta `paper/` (primeira versão, sem o BGE-M3 denso puro no conjunto real) foi removida do repositório remoto para evitar confusão entre versões — `paper_v2/` é a única versão mantida no GitHub. Ela continua disponível apenas localmente, para referência.
 
 ## Estrutura do repositório
 
@@ -67,7 +68,7 @@ Prod_Match_Eramia_26/
 │   ├── combined_900/                 # MAP e curva pooled dos 2 conjuntos juntos (900 consultas)
 │   └── jaccard_split/                # MAP por metade inferior/superior de Jaccard (900 consultas)
 ├── eda/                               # EDA: gráficos, tabelas, item_topics.csv, jaccard_vs_map.*
-└── paper/
+└── paper_v2/
     ├── artigo_eramia_2026.md         # rascunho do artigo em Markdown (fonte de trabalho)
     └── latex/                         # versão formatada no template SBC — pronta para submissão
 ```
@@ -148,7 +149,7 @@ O retrieval sobre o conjunto real (852 consultas × 4 métodos) leva ~30–35 mi
 
 Sobre ground truth **real**, o BM25 iguala/supera o BGE-M3 hybrid com 24× menos latência — padrão **oposto** ao do conjunto sintético (ppc_weak), onde o BGE-M3 (denso ou hybrid) lidera com folga e o BM25 é o método mais fraco (MAP 0,559).
 
-**Jaccard × desempenho** (`eda/jaccard_vs_map_resultados.md`, por quartil dentro do conjunto real + ppc_weak como ponto externo): o Jaccard médio do conjunto real (0,649) é bem maior que o do ppc_weak (0,403, construído deliberadamente com baixa sobreposição lexical). No ppc_weak, a vantagem do BGE-M3 hybrid sobre o BM25 é a maior do estudo (+0,152 MAP). Detalhes em `paper/artigo_eramia_2026.md` (Seções 4.4 e 5.1).
+**Jaccard × desempenho** (`eda/jaccard_vs_map_resultados.md`, por quartil dentro do conjunto real + ppc_weak como ponto externo): o Jaccard médio do conjunto real (0,649) é bem maior que o do ppc_weak (0,403, construído deliberadamente com baixa sobreposição lexical). No ppc_weak, a vantagem do BGE-M3 hybrid sobre o BM25 é a maior do estudo (+0,152 MAP). Detalhes em `paper_v2/artigo_eramia_2026.md` (Seções 4.4 e 5.1).
 
 **Divisão por mediana de Jaccard** (`results/jaccard_split/jaccard_split_resultados.md`, 900 consultas combinadas, corte único na mediana=0,754): **hipótese confirmada** — a vantagem semântica (MAP BGE-M3 hybrid − MAP BM25) é **+0,023** na metade de Jaccard inferior e **−0,013** na metade superior. O efeito é real mas modesto em magnitude; ver o relatório completo para a distribuição real/sintético em cada metade (a metade superior é quase só consultas reais — só 2 das 48 sintéticas caem ali).
 

@@ -21,8 +21,12 @@ __pycache__/
 *.pyc
 
 # Artefatos de compilação LaTeX (manter apenas .tex/.bib/.bbl/.pdf finais)
-paper/latex/*.aux
-paper/latex/*.log
-paper/latex/*.blg
-paper/latex/*.out
-paper/latex/page-*.png
+paper_v2/latex/*.aux
+paper_v2/latex/*.log
+paper_v2/latex/*.blg
+paper_v2/latex/*.out
+paper_v2/latex/page-*.png
+
+# paper/ (v1): mantida apenas localmente, fora do repositorio remoto,
+# para evitar confusao com paper_v2/. Ver README.md.
+paper/
