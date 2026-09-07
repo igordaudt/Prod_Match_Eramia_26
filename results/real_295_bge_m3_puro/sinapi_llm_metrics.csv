@@ -1,0 +1,2 @@
+run_id;started_at;method;products_tested;avg_retrieval_time_ms;avg_MAP;avg_P@5;avg_P@10;avg_P_5;avg_P_10;retrieval_limit;avg_Recall@10;avg_Recall@50;avg_Recall@100
+20260906_121419;2026-09-06T12:14:19.216919-03:00;bge_m3;852;297.140;0.756799;0.202347;0.106221;0.202347;0.106221;100;0.962441;0.992958;0.999413
