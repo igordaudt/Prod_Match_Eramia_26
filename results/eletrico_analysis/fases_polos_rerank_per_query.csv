@@ -1,0 +1,4 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+2316;7;motor, cv, capacidade, motor diesel, diesel, potencia;trifasico:fases_polos;152329;0.500000;0.500000;0.500000;"DOBRADEIRA ELETROMECANICA DE VERGALHAO, PARA ACO DE DIAMETRO ATE 1 1/2 ""Â, MOTOR ELETRICO TRIFASICO, POTENCIA DE 3 HP ATE 5 HP"
+5915;37;cobre anel, tubulacao, disjuntor, espuma polietileno, polietileno expandido, mm luva;monopolar:fases_polos;121780;1.000000;1.000000;1.000000;Disjuntor Monopolar 32A Curva C DIN
+39408;71;tensao, isolante, kv, transformador, potencia kva, mineral;trifásico:fases_polos;124568;1.000000;1.000000;1.000000;ESTABILIZADOR - ESTABILIZADOR ELETRÔNICO TRIFÁSICO DE TENSÃO 15 KVA

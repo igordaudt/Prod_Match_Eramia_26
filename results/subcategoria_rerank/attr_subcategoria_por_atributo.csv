@@ -1,0 +1,22 @@
+atributo;n;map_baseline;map_attr_subcategoria;delta
+GLOBAL (uniao de todos os atributos);852;0.793226;0.824875;0.031649
+Peso (kg/g/mg/t);46;0.762310;0.800259;0.037949
+Dimensional (mm/cm/m/pol, 6 regras);548;0.790559;0.835136;0.044577
+Potencia mecanica (cv/hp);22;0.616162;0.635534;0.019372
+Diametro nominal (DN);24;0.941667;0.979167;0.037500
+Isolacao eletrica;60;0.861341;0.866657;0.005316
+Vias condutoras;9;0.731481;0.638889;-0.092593
+Categoria de rede (CAT5...);8;0.843750;0.885417;0.041667
+Material base;430;0.810182;0.810729;0.000548
+Corrente eletrica;52;0.813646;0.815379;0.001733
+Resistencia estrutural (mpa);15;0.671051;0.652533;-0.018519
+Pressao hidraulica;17;0.687692;0.671352;-0.016340
+Norma NBR;132;0.682607;0.669476;-0.013131
+Cor base;116;0.737722;0.735483;-0.002239
+Tensao (v/kv);17;0.977941;0.899510;-0.078431
+Potencia eletrica (w/kw/kva);29;0.804598;0.810345;0.005747
+Capacidade (litros);27;0.865741;0.865741;0.000000
+Comprimento/diametro em polegadas;76;0.722180;0.720087;-0.002093
+Area (mm2/cm2/m2);14;0.761905;0.720238;-0.041667
+Volume (mm3/cm3/m3);7;0.642857;0.642857;0.000000
+Concentracao quimica (%);7;0.690476;0.690476;0.000000

@@ -1,0 +1,853 @@
+product_id;topic;keywords;is_outlier;baseline_ap;flat_topic_ap;hierarchical_continuous_ap;hierarchical_level_ap
+562;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;0.111111;1.000000;1.000000;1.000000
+717;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.500000;0.500000;0.500000;0.500000
+780;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.250000;0.500000;0.500000;0.500000
+861;-1;outliers (sem tópico coerente);True;0.111111;0.111111;0.111111;0.111111
+923;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;0.500000;0.500000;0.500000;0.500000
+1097;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;False;0.031250;0.333333;0.333333;0.333333
+1098;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;False;0.029412;0.333333;0.333333;0.333333
+1275;85;cat, categoria, 5e, pares, par, patch;False;0.416667;1.000000;1.000000;1.000000
+1276;85;cat, categoria, 5e, pares, par, patch;False;0.333333;1.000000;1.000000;1.000000
+1324;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+1331;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;0.076923;0.083333;0.083333;0.083333
+1422;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+1447;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;0.111111;0.111111;0.111111;0.111111
+1448;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;0.111111;0.111111;0.111111;0.111111
+1457;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.333333;0.333333;0.333333;0.333333
+1458;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.291667;0.291667;0.291667;0.291667
+1618;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.125000;0.125000;0.125000;0.125000
+1621;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.142857;0.142857;0.142857;0.142857
+1657;1;parafuso, zincado, cabeca, soberba, rosca soberba, comprimento mm;False;0.500000;0.500000;0.500000;0.500000
+1670;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;0.500000;0.500000;0.500000;0.500000
+1671;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;0.500000;0.500000;0.500000;0.500000
+1677;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+2017;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+2214;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.333333;1.000000;1.000000;1.000000
+2235;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+2236;118;cabo mm2, terminal, pressao, furo, metalico, mm2;False;1.000000;1.000000;1.000000;1.000000
+2316;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;0.500000;0.500000;0.500000;0.500000
+2318;50;perfil aco, espelho, laminado, dobradica, mm anel, perfil;False;0.333333;0.333333;0.333333;0.333333
+2398;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+2399;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+2477;50;perfil aco, espelho, laminado, dobradica, mm anel, perfil;False;0.500000;0.500000;0.500000;0.500000
+2616;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+2694;;;False;0.500000;0.500000;0.500000;0.500000
+2764;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+2790;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+2793;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+2804;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+2805;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+2806;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+2881;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.066667;0.066667;0.066667;0.066667
+2888;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.500000;0.500000;0.500000;0.500000
+2891;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.257576;0.257576;0.257576;0.257576
+2898;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.500000;0.500000;0.500000;0.500000
+3234;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+3246;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+3445;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;0.076923;1.000000;1.000000;1.000000
+3540;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3541;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3542;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3543;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3544;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3546;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+3547;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3548;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3549;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3550;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3551;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3552;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3553;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+3585;-1;outliers (sem tópico coerente);True;0.250000;0.250000;0.250000;0.250000
+3613;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.333333;0.333333;0.333333;0.333333
+3614;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.333333;0.333333;0.333333;0.333333
+3632;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+3633;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+3646;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;0.500000;0.500000;0.500000;0.500000
+4015;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+4033;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+4108;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+4124;41;500, media, capa, folha, tensao nominal, tripolar;False;0.100000;0.100000;0.100000;0.100000
+4126;41;500, media, capa, folha, tensao nominal, tripolar;False;0.100000;0.100000;0.100000;0.100000
+4146;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.090909;0.142857;0.142857;0.142857
+4147;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.090909;0.142857;0.142857;0.142857
+4148;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.083333;0.125000;0.125000;0.125000
+4149;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.500000;0.500000;0.500000;0.500000
+4150;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.172619;0.108466;0.108466;0.108466
+4151;41;500, media, capa, folha, tensao nominal, tripolar;False;0.045455;0.062500;0.062500;0.062500
+4152;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.056250;0.072482;0.072482;0.072482
+4155;41;500, media, capa, folha, tensao nominal, tripolar;False;0.055556;0.083333;0.083333;0.083333
+4160;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.250000;1.000000;1.000000;1.000000
+4196;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+4226;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+4246;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+4310;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+4374;-1;outliers (sem tópico coerente);True;0.333333;0.333333;0.333333;0.333333
+4478;113;bomba, usinado, resistencia, servico, classe, concreto;False;0.500000;0.500000;0.500000;0.500000
+4488;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+4619;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;0.500000;0.500000;0.500000;0.500000
+4856;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+4888;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+4903;117;amianto, fibrocimento, estrutural, telha, aba, abas;False;0.166667;0.166667;0.166667;0.166667
+4970;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;False;0.200000;0.200000;0.200000;0.200000
+4977;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+4984;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.325000;0.325000;0.325000;0.325000
+5018;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.500000;0.500000;0.500000;0.500000
+5019;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.250000;0.250000;0.250000;0.250000
+5020;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;0.500000;0.500000;0.500000;0.500000
+5022;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;0.500000;0.500000;0.500000;0.500000
+5025;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.250000;0.250000;0.250000;0.250000
+5026;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.333333;0.333333;0.333333;0.333333
+5027;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.142857;0.142857;0.142857;0.142857
+5028;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.250000;0.250000;0.250000;0.250000
+5029;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.500000;0.500000;0.500000;0.500000
+5041;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.333333;0.333333;0.333333;0.333333
+5287;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5289;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.583333;0.583333;0.583333;0.583333
+5290;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.583333;0.583333;0.583333;0.583333
+5292;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.583333;0.583333;0.583333;0.583333
+5293;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.333333;0.333333;0.333333;0.333333
+5294;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5295;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5296;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5297;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+5298;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5299;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5300;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5301;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5302;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+5307;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+5309;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+5310;-1;outliers (sem tópico coerente);True;0.250000;0.250000;0.250000;0.250000
+5312;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+5338;27;pex, tubo pex, conexao, conexao anel, plastica, metalica;False;0.100000;0.100000;0.100000;0.100000
+5474;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.500000;0.500000;0.500000;0.500000
+5553;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.500000;0.500000;0.500000;0.500000
+5604;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+5618;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;False;1.000000;1.000000;1.000000;1.000000
+5620;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;False;1.000000;1.000000;1.000000;1.000000
+5915;37;cobre anel, tubulacao, disjuntor, espuma polietileno, polietileno expandido, mm luva;False;1.000000;1.000000;1.000000;1.000000
+5920;30;bsp, rosca bsp, galvanizado rosca, ferro, ferro galvanizado, curva graus;False;1.000000;1.000000;1.000000;1.000000
+6024;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6025;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6026;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.500000;0.500000;0.500000;0.500000
+6027;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;0.500000;0.500000;0.500000;0.500000
+6028;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;0.500000;0.500000;0.500000;0.500000
+6029;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6030;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6031;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6032;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6033;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6034;67;usinado, servico, resistencia, latao cromado, classe, nbr;False;1.000000;1.000000;1.000000;1.000000
+6035;67;usinado, servico, resistencia, latao cromado, classe, nbr;False;1.000000;1.000000;1.000000;1.000000
+6036;67;usinado, servico, resistencia, latao cromado, classe, nbr;False;1.000000;1.000000;1.000000;1.000000
+6037;67;usinado, servico, resistencia, latao cromado, classe, nbr;False;1.000000;1.000000;1.000000;1.000000
+6038;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;1.000000;1.000000;1.000000;1.000000
+6039;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;1.000000;1.000000;1.000000;1.000000
+6040;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.642857;0.642857;0.642857;0.642857
+6041;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.611111;0.611111;0.611111;0.611111
+6042;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.642857;0.642857;0.642857;0.642857
+6043;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;1.000000;1.000000;1.000000;1.000000
+6044;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;0.500000;0.500000;0.500000;0.500000
+6045;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+6046;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6047;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6048;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.333333;1.000000;1.000000;1.000000
+6049;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6050;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6051;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+6052;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6053;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6054;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6055;118;cabo mm2, terminal, pressao, furo, metalico, mm2;False;1.000000;1.000000;1.000000;1.000000
+6056;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+6057;50;perfil aco, espelho, laminado, dobradica, mm anel, perfil;False;0.500000;0.500000;0.500000;0.500000
+6058;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6059;17;eucalipto, tratamento, regiao, preto, cm mm, painel;False;1.000000;1.000000;1.000000;1.000000
+6060;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;0.583333;0.512821;0.583333
+6061;6;amarracao, abracadeira, zamac, cromado, dobradica, poco;False;1.000000;1.000000;1.000000;1.000000
+6062;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6063;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6064;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6065;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6066;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6067;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6068;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6069;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6070;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6071;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6072;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6073;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6074;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6075;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6076;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6077;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6078;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6079;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+6080;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6081;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6082;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6083;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6084;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6085;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6086;83;faces, termoplastica, bolsa bolsa, manta, mm nbr, bolsa;False;1.000000;1.000000;1.000000;1.000000
+6087;-1;outliers (sem tópico coerente);True;0.750000;0.750000;0.750000;0.750000
+6088;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6089;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6090;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.500000;0.500000;0.500000;0.500000
+6091;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.500000;0.500000;0.500000;0.500000
+6092;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6093;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6094;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6095;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6096;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6097;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6098;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6099;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6100;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6101;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6102;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6103;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6104;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6105;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6106;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6107;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6108;26;operador, horista, mensalista, maquinas, betoneira, trafego;False;1.000000;1.000000;1.000000;1.000000
+6109;26;operador, horista, mensalista, maquinas, betoneira, trafego;False;1.000000;1.000000;1.000000;1.000000
+6110;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+6111;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+6112;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6113;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6114;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6115;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6116;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.250000;1.000000;1.000000;1.000000
+6117;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6118;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6119;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6120;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6121;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6122;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6123;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6124;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6125;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6126;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6127;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6128;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6129;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6130;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6131;55;circular, dan, resistencia dan, extensao resistencia, armado secao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6132;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6133;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6134;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6135;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6136;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;0.500000;0.500000;0.500000;0.500000
+6137;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;0.500000;0.500000;0.500000;0.500000
+6138;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6139;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6140;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6141;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6142;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6143;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6144;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6145;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6146;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6147;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6148;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6149;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6150;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6151;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6152;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6153;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6154;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6155;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6156;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+6157;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6158;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6159;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6160;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6161;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6162;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6163;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6164;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6165;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6166;113;bomba, usinado, resistencia, servico, classe, concreto;False;0.500000;0.500000;0.500000;0.500000
+6174;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6175;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;0.500000;0.500000;0.500000;0.500000
+6176;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+6177;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6178;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6179;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;0.625000;0.666667;0.666667;0.666667
+6180;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;1.000000;1.000000;1.000000;1.000000
+6181;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6182;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6183;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+6184;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+6185;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6186;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+6187;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6188;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6189;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6190;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6191;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+6192;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6193;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6194;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6195;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6196;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+6197;10;hp, peso, hp peso, potencia, liquida, maximo;False;1.000000;1.000000;1.000000;1.000000
+6198;10;hp, peso, hp peso, potencia, liquida, maximo;False;1.000000;1.000000;1.000000;1.000000
+6199;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.500000;0.500000;0.500000;0.500000
+6214;50;perfil aco, espelho, laminado, dobradica, mm anel, perfil;False;1.000000;1.000000;1.000000;1.000000
+6215;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6216;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6217;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6218;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6219;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;1.000000;1.000000;1.000000;1.000000
+6220;16;lampada, bivolt, luva eletroduto, lampada vapor, base e27, base;False;1.000000;1.000000;1.000000;1.000000
+6221;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;0.833333;0.833333;0.833333;0.833333
+6222;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6223;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6224;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6225;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6441;10;hp, peso, hp peso, potencia, liquida, maximo;False;1.000000;1.000000;1.000000;1.000000
+6443;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;1.000000;1.000000;1.000000;1.000000
+6444;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;1.000000;1.000000;1.000000;1.000000
+6451;8;inox, maquina, kit, mm fechadura, fechadura, carenagem;False;1.000000;1.000000;1.000000;1.000000
+6452;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;1.000000;1.000000;1.000000;1.000000
+6453;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.500000;0.500000;0.500000;0.500000
+6454;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.500000;0.500000;0.500000;0.500000
+6455;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.333333;0.333333;0.333333;0.333333
+6456;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.500000;0.500000;0.500000;0.500000
+6457;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.500000;0.500000;0.500000;0.500000
+6458;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.625000;0.625000;0.625000;0.625000
+6459;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.479167;0.479167;0.479167;0.479167
+6460;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6461;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6462;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+6463;10;hp, peso, hp peso, potencia, liquida, maximo;False;1.000000;1.000000;1.000000;1.000000
+6464;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6465;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6466;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;1.000000;1.000000;1.000000;1.000000
+6467;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;1.000000;1.000000;1.000000;1.000000
+6468;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6469;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6470;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6471;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6472;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6473;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6474;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.500000;0.500000;0.500000;0.500000
+6475;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6476;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+6477;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+6478;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;False;1.000000;1.000000;1.000000;1.000000
+6479;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6480;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+6481;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6482;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6483;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6484;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+6485;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6486;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6487;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6488;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6489;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6490;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6491;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6492;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6493;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6494;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6495;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+6496;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6497;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6498;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6499;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+6500;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6501;24;polido, granito, cm, regiao, marmore, andorinha;False;1.000000;1.000000;1.000000;1.000000
+6502;24;polido, granito, cm, regiao, marmore, andorinha;False;1.000000;1.000000;1.000000;1.000000
+6503;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.583333;0.583333;0.583333;0.583333
+6504;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6505;62;cm cm, modelo, natural, mpa, cor, cm;False;1.000000;1.000000;1.000000;1.000000
+6506;62;cm cm, modelo, natural, mpa, cor, cm;False;1.000000;1.000000;1.000000;1.000000
+6507;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;False;1.000000;1.000000;1.000000;1.000000
+6508;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+6509;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6510;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6511;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6512;44;grelha, branca, pvc mm, ralo, redonda, quadrada;False;1.000000;1.000000;1.000000;1.000000
+6513;44;grelha, branca, pvc mm, ralo, redonda, quadrada;False;1.000000;1.000000;1.000000;1.000000
+6514;44;grelha, branca, pvc mm, ralo, redonda, quadrada;False;1.000000;1.000000;1.000000;1.000000
+6515;68;corte, galvanizada, calha, rufo, chapa aco, lajes;False;1.000000;1.000000;1.000000;1.000000
+6516;68;corte, galvanizada, calha, rufo, chapa aco, lajes;False;1.000000;1.000000;1.000000;1.000000
+6517;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.611111;0.642857;0.642857;0.642857
+6518;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6519;50;perfil aco, espelho, laminado, dobradica, mm anel, perfil;False;1.000000;1.000000;1.000000;1.000000
+6520;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+6521;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+6522;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+6523;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.625000;0.750000;0.750000;0.750000
+6524;67;usinado, servico, resistencia, latao cromado, classe, nbr;False;1.000000;1.000000;1.000000;1.000000
+6525;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6526;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6527;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6528;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6529;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6530;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6531;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6532;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6533;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6534;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6535;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6536;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6537;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6538;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6539;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6540;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6541;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6542;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6543;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6544;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6545;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6546;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6547;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6548;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6549;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6550;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6551;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+6552;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6553;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6554;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6555;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6556;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6557;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6558;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6559;68;corte, galvanizada, calha, rufo, chapa aco, lajes;False;1.000000;1.000000;1.000000;1.000000
+6560;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6561;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6562;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6563;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6564;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6565;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6566;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6567;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6568;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6569;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6570;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6571;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6572;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.625000;0.625000;0.625000;0.625000
+6573;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6574;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6575;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.257576;0.257576;0.257576;0.257576
+6576;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6577;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6578;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+6579;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.600000;0.600000;0.600000;0.600000
+6580;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.500000;0.500000;0.500000;0.500000
+6581;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;0.500000;0.500000;0.500000;0.500000
+6582;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.591667;0.508333;0.508333;0.508333
+6583;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.566667;0.505128;0.505128;0.505128
+6584;61;capa, marco, folha, dobradicas, pronta, alizares;False;0.611111;0.541667;0.541667;0.541667
+6585;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6586;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+6587;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+6588;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6589;17;eucalipto, tratamento, regiao, preto, cm mm, painel;False;1.000000;1.000000;1.000000;1.000000
+6590;17;eucalipto, tratamento, regiao, preto, cm mm, painel;False;1.000000;1.000000;1.000000;1.000000
+6591;17;eucalipto, tratamento, regiao, preto, cm mm, painel;False;1.000000;1.000000;1.000000;1.000000
+6592;17;eucalipto, tratamento, regiao, preto, cm mm, painel;False;1.000000;1.000000;1.000000;1.000000
+6593;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6594;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6595;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6596;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6597;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;False;1.000000;1.000000;1.000000;1.000000
+6598;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;False;1.000000;1.000000;1.000000;1.000000
+6599;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;False;1.000000;1.000000;1.000000;1.000000
+6600;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;False;1.000000;1.000000;1.000000;1.000000
+6601;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6602;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6603;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6604;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+6605;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6606;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6607;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6608;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6609;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6610;41;500, media, capa, folha, tensao nominal, tripolar;False;1.000000;1.000000;1.000000;1.000000
+6611;13;aluminio, rosca 12, bucha, 12 eletroduto, eletroduto, bucha reducao;False;1.000000;1.000000;1.000000;1.000000
+6612;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6613;88;poste, poste concreto, kg, circular, bolsa, bolsa bolsa;False;1.000000;1.000000;1.000000;1.000000
+6614;88;poste, poste concreto, kg, circular, bolsa, bolsa bolsa;False;1.000000;1.000000;1.000000;1.000000
+6615;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6616;44;grelha, branca, pvc mm, ralo, redonda, quadrada;False;0.500000;0.500000;0.500000;0.500000
+6617;44;grelha, branca, pvc mm, ralo, redonda, quadrada;False;0.500000;0.500000;0.500000;0.500000
+6618;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6619;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6620;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6621;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6622;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6623;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6624;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+6625;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6626;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6627;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6628;13;aluminio, rosca 12, bucha, 12 eletroduto, eletroduto, bucha reducao;False;1.000000;1.000000;1.000000;1.000000
+6629;13;aluminio, rosca 12, bucha, 12 eletroduto, eletroduto, bucha reducao;False;1.000000;1.000000;1.000000;1.000000
+6630;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+6631;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+6632;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6633;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6634;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6635;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6636;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6637;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6638;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+6639;95;caixa passagem, passagem, dimensoes, cm caixa, sobrepor, tampa;False;1.000000;1.000000;1.000000;1.000000
+6640;53;fofo, tampao, carga, redondo, requadro, base;False;1.000000;1.000000;1.000000;1.000000
+6641;53;fofo, tampao, carga, redondo, requadro, base;False;1.000000;1.000000;1.000000;1.000000
+6642;53;fofo, tampao, carga, redondo, requadro, base;False;0.500000;0.500000;0.500000;0.500000
+6643;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6644;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+6645;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+6646;117;amianto, fibrocimento, estrutural, telha, aba, abas;False;0.166667;0.166667;0.166667;0.166667
+6647;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+6648;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;1.000000;1.000000;1.000000;1.000000
+6649;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;1.000000;1.000000;1.000000;1.000000
+6650;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6651;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6652;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6653;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+6654;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6694;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6695;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;1.000000;1.000000;1.000000;1.000000
+6696;85;cat, categoria, 5e, pares, par, patch;False;1.000000;1.000000;1.000000;1.000000
+6697;85;cat, categoria, 5e, pares, par, patch;False;1.000000;1.000000;1.000000;1.000000
+6698;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;1.000000;1.000000;1.000000;1.000000
+6699;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;1.000000;1.000000;1.000000;1.000000
+6700;73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;False;1.000000;1.000000;1.000000;1.000000
+6701;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.291667;0.291667;0.291667;0.291667
+6702;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+6703;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6704;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6705;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6713;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+6825;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+6826;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+6827;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+6828;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+6829;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+6830;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+6831;85;cat, categoria, 5e, pares, par, patch;False;1.000000;1.000000;1.000000;1.000000
+6832;48;mpa nbr, mpa, estrutural, bloco, canaleta, nbr;False;1.000000;1.000000;1.000000;1.000000
+6908;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.333333;0.333333;0.333333;0.333333
+6910;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.333333;0.333333;0.333333;0.333333
+6912;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.333333;0.333333;0.333333;0.333333
+7062;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+7074;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+7796;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7797;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7798;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7799;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7800;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7804;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+7805;11;cpvc, cpvc soldavel, agua quente, quente, mm agua, soldavel mm;False;1.000000;1.000000;1.000000;1.000000
+7806;11;cpvc, cpvc soldavel, agua quente, quente, mm agua, soldavel mm;False;1.000000;1.000000;1.000000;1.000000
+7807;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;False;1.000000;1.000000;1.000000;1.000000
+7808;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;False;1.000000;1.000000;1.000000;1.000000
+7809;-1;outliers (sem tópico coerente);True;0.833333;0.833333;0.833333;0.833333
+7810;-1;outliers (sem tópico coerente);True;0.833333;0.833333;0.833333;0.833333
+7811;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+7812;119;quente fria, mm cor, conector, cor marrom, marrom agua, marrom;False;1.000000;1.000000;1.000000;1.000000
+7813;119;quente fria, mm cor, conector, cor marrom, marrom agua, marrom;False;1.000000;1.000000;1.000000;1.000000
+7814;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+7815;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+7816;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+7817;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+7818;11;cpvc, cpvc soldavel, agua quente, quente, mm agua, soldavel mm;False;1.000000;1.000000;1.000000;1.000000
+7819;11;cpvc, cpvc soldavel, agua quente, quente, mm agua, soldavel mm;False;1.000000;1.000000;1.000000;1.000000
+7820;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+7821;11;cpvc, cpvc soldavel, agua quente, quente, mm agua, soldavel mm;False;1.000000;1.000000;1.000000;1.000000
+7822;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;False;1.000000;1.000000;1.000000;1.000000
+7823;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;False;1.000000;1.000000;1.000000;1.000000
+7824;98;laje premoldada, unidirecional sobrecarga, sobrecarga, unidirecional, premoldada, vao;False;1.000000;1.000000;1.000000;1.000000
+7825;27;pex, tubo pex, conexao, conexao anel, plastica, metalica;False;1.000000;1.000000;1.000000;1.000000
+7826;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+7939;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;0.583333;0.133929;0.133929;0.133929
+7940;122;fibra vidro, litros tampa, fibra, reforcado, reservatorio, litros;False;1.000000;1.000000;1.000000;1.000000
+7941;122;fibra vidro, litros tampa, fibra, reforcado, reservatorio, litros;False;1.000000;1.000000;1.000000;1.000000
+7942;122;fibra vidro, litros tampa, fibra, reforcado, reservatorio, litros;False;1.000000;1.000000;1.000000;1.000000
+7943;122;fibra vidro, litros tampa, fibra, reforcado, reservatorio, litros;False;1.000000;1.000000;1.000000;1.000000
+7944;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+8068;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+8179;-1;outliers (sem tópico coerente);True;0.166667;0.166667;0.166667;0.166667
+8180;-1;outliers (sem tópico coerente);True;0.125000;0.125000;0.125000;0.125000
+8252;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+8461;103;pvc rigido, rigido, curva graus, roscavel, longa, eletroduto;False;1.000000;1.000000;1.000000;1.000000
+8615;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+8617;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+8618;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+8619;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+8620;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+9151;48;mpa nbr, mpa, estrutural, bloco, canaleta, nbr;False;1.000000;1.000000;1.000000;1.000000
+9362;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.500000;0.500000;0.500000;0.500000
+9758;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+10240;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+10242;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+10799;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+11214;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+11225;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+11269;114;impermeabilizante, liquido, epoxi, base resina, resina, adesivo;False;1.000000;1.000000;1.000000;1.000000
+11361;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+11414;114;impermeabilizante, liquido, epoxi, base resina, resina, adesivo;False;1.000000;1.000000;1.000000;1.000000
+11478;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+11703;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+11726;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+11767;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+11828;122;fibra vidro, litros tampa, fibra, reforcado, reservatorio, litros;False;1.000000;1.000000;1.000000;1.000000
+11872;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.083333;0.333333;0.333333;0.333333
+11873;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.062500;1.000000;1.000000;1.000000
+11874;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.058824;0.500000;0.500000;0.500000
+11922;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+12299;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+12567;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.200000;0.500000;0.500000;0.500000
+12639;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+12644;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+12694;34;prediais, pluviais prediais, esgoto aguas, pvc serie, serie, mm esgoto;False;1.000000;1.000000;1.000000;1.000000
+12740;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+12741;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+12811;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.833333;0.833333;0.833333;0.833333
+12852;-1;outliers (sem tópico coerente);True;0.166667;0.166667;0.166667;0.166667
+12886;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;1.000000;1.000000;1.000000;1.000000
+13379;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+13380;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+13500;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+13744;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;1.000000;1.000000;1.000000;1.000000
+13798;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+13899;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;1.000000;1.000000;1.000000;1.000000
+13953;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+14195;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;1.000000;1.000000;1.000000
+14452;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.291667;0.291667;0.291667;0.291667
+14547;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+14589;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;False;1.000000;1.000000;1.000000;1.000000
+14792;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+14793;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+15048;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+15058;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.333333;0.500000;0.500000;0.500000
+15501;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+15551;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+15552;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+15653;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.642857;0.642857;0.642857;0.642857
+15983;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+16554;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.225000;0.225000;0.225000;0.225000
+16560;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;0.500000;0.500000;0.500000;0.500000
+16647;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;1.000000;1.000000;1.000000;1.000000
+16677;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+16700;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+16718;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+16719;8;inox, maquina, kit, mm fechadura, fechadura, carenagem;False;1.000000;1.000000;1.000000;1.000000
+16756;-1;outliers (sem tópico coerente);True;0.333333;0.333333;0.333333;0.333333
+17084;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+17146;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;False;1.000000;1.000000;1.000000;1.000000
+17644;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+17653;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;False;0.500000;1.000000;1.000000;1.000000
+17672;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+17673;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+17691;88;poste, poste concreto, kg, circular, bolsa, bolsa bolsa;False;0.142857;0.500000;0.500000;0.500000
+18044;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.250000;0.500000;0.500000;0.500000
+18185;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.250000;0.500000;0.500000;0.500000
+18329;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.250000;0.500000;0.500000;0.500000
+18476;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+18956;-1;outliers (sem tópico coerente);True;0.062500;0.062500;0.062500;0.062500
+19895;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+19971;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+20212;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+21117;30;bsp, rosca bsp, galvanizado rosca, ferro, ferro galvanizado, curva graus;False;1.000000;1.000000;1.000000;1.000000
+21414;-1;outliers (sem tópico coerente);True;0.125000;0.125000;0.125000;0.125000
+21415;-1;outliers (sem tópico coerente);True;0.125000;0.125000;0.125000;0.125000
+21562;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+21733;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+22510;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+22530;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+22964;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+23063;125;termoplastica, manta, mm nbr, lisa, pead, nbr;False;0.500000;0.500000;0.500000;0.500000
+23234;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+23626;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+23778;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;0.333333;0.333333;0.333333;0.333333
+24285;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24287;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24312;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24316;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24318;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24319;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24321;81;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24323;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24325;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24326;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24343;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+24344;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;1.000000;1.000000;1.000000;1.000000
+25130;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;1.000000;1.000000;1.000000;1.000000
+25143;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+25272;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+25273;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+25486;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+25488;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;1.000000;1.000000;1.000000
+27741;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.076923;1.000000;1.000000;1.000000
+27742;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.142857;1.000000;1.000000;1.000000
+28014;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+28027;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+28111;-1;outliers (sem tópico coerente);True;0.142857;0.142857;0.142857;0.142857
+28524;-1;outliers (sem tópico coerente);True;0.142857;0.142857;0.142857;0.142857
+28819;-1;outliers (sem tópico coerente);True;0.142857;0.142857;0.142857;0.142857
+29044;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+29181;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+29849;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+30473;94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;False;0.333333;0.500000;0.500000;0.500000
+31369;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+31784;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+31785;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.250000;0.250000;0.250000;0.250000
+32180;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+32184;51;din, quadro, distribuicao, trifasico, embutir chapa, chapa aco;False;1.000000;1.000000;1.000000;1.000000
+32825;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+32830;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+32831;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+33592;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+33596;29;disjuntor, ac, tripolar, corrente, vazao maxima, plana;False;1.000000;1.000000;1.000000;1.000000
+34158;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+34521;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+34631;114;impermeabilizante, liquido, epoxi, base resina, resina, adesivo;False;1.000000;1.000000;1.000000;1.000000
+34670;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+34737;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+34757;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+34799;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.125000;0.125000;0.125000;0.125000
+34800;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.142857;0.142857;0.142857;0.142857
+34805;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.125000;0.125000;0.125000;0.125000
+34810;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.500000;0.500000;0.500000;0.500000
+34811;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.500000;0.500000;0.500000;0.500000
+34812;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.500000;0.500000;0.500000;0.500000
+34835;7;motor, cv, capacidade, motor diesel, diesel, potencia;False;0.500000;0.500000;0.500000;0.500000
+34972;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+34973;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+34976;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+34997;24;polido, granito, cm, regiao, marmore, andorinha;False;0.500000;0.500000;0.500000;0.500000
+35019;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+35020;101;kg, cabine, cv inclui, peso bruto, total, chassi;False;0.500000;0.500000;0.500000;0.500000
+35140;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;0.500000;0.500000;0.500000;0.500000
+35143;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+35260;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;0.250000;0.500000;0.500000;0.500000
+35267;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35275;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+35276;100;fogo, bandeira, mm sinapi, mecanica, 15 mm, aco galvanizado;False;1.000000;1.000000;1.000000;1.000000
+35294;26;operador, horista, mensalista, maquinas, betoneira, trafego;False;0.500000;0.500000;0.500000;0.500000
+35304;26;operador, horista, mensalista, maquinas, betoneira, trafego;False;1.000000;1.000000;1.000000;1.000000
+35423;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+35436;-1;outliers (sem tópico coerente);True;0.333333;0.333333;0.333333;0.333333
+35561;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;False;0.500000;0.500000;0.500000;0.500000
+35612;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.200000;0.200000;0.200000;0.200000
+35613;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.250000;0.250000;0.250000;0.250000
+35614;70;torneira, cromada, bico, arejador, cozinha, 12 34;False;0.333333;0.333333;0.333333;0.333333
+35637;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+35638;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35639;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35640;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.833333;0.833333;0.833333;0.833333
+35641;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+35642;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35643;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35644;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35645;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35646;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35647;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35648;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+35649;-1;outliers (sem tópico coerente);True;0.200000;0.200000;0.200000;0.200000
+35650;-1;outliers (sem tópico coerente);True;0.666667;0.666667;0.666667;0.666667
+35651;-1;outliers (sem tópico coerente);True;0.642857;0.642857;0.642857;0.642857
+35652;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35653;-1;outliers (sem tópico coerente);True;0.700000;0.700000;0.700000;0.700000
+35659;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35660;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35661;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35662;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35663;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;0.500000;0.500000;0.500000;0.500000
+35677;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;False;1.000000;1.000000;1.000000;1.000000
+35678;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;False;1.000000;1.000000;1.000000;1.000000
+35679;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35680;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+35681;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+35682;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+35683;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+35684;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+35688;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.500000;0.500000;0.500000;0.500000
+35694;10;hp, peso, hp peso, potencia, liquida, maximo;False;1.000000;1.000000;1.000000;1.000000
+35695;25;metal, cromado, sifao, valvula, americana, lavatorio;False;1.000000;1.000000;1.000000;1.000000
+35696;25;metal, cromado, sifao, valvula, americana, lavatorio;False;0.500000;0.500000;0.500000;0.500000
+35697;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35698;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35699;25;metal, cromado, sifao, valvula, americana, lavatorio;False;1.000000;1.000000;1.000000;1.000000
+35700;10;hp, peso, hp peso, potencia, liquida, maximo;False;0.500000;0.500000;0.500000;0.500000
+35704;47;perfurada, mm virola, virola tampa, galvanizado espessura, removivel, virola;False;1.000000;1.000000;1.000000;1.000000
+35705;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+35706;47;perfurada, mm virola, virola tampa, galvanizado espessura, removivel, virola;False;1.000000;1.000000;1.000000;1.000000
+36363;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.058824;0.058824;0.058824;0.058824
+37327;-1;outliers (sem tópico coerente);True;0.100000;0.100000;0.100000;0.100000
+37328;-1;outliers (sem tópico coerente);True;0.100000;0.100000;0.100000;0.100000
+37368;57;naval, tubo pvc, compensado, compensado naval, 220, 160;False;0.142857;1.000000;1.000000;1.000000
+37628;2;bloco, furos, cm, vedacao, mpa, estrutural;False;1.000000;1.000000;1.000000;1.000000
+38492;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+38612;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;1.000000;1.000000;1.000000;1.000000
+39016;90;resistencia dan, dan, extensao resistencia, armado secao, extensao, poste concreto;False;0.500000;0.500000;0.500000;0.500000
+39234;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;1.000000;1.000000;1.000000;1.000000
+39408;71;tensao, isolante, kv, transformador, potencia kva, mineral;False;1.000000;1.000000;1.000000;1.000000
+39524;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;0.833333;0.833333;0.833333;0.833333
+39652;107;forro, forro pvc, regua, cm espessura, borda, mineral;False;1.000000;1.000000;1.000000;1.000000
+40372;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+40451;85;cat, categoria, 5e, pares, par, patch;False;0.416667;1.000000;1.000000;1.000000
+40839;34;prediais, pluviais prediais, esgoto aguas, pvc serie, serie, mm esgoto;False;1.000000;1.000000;1.000000;1.000000
+41058;37;cobre anel, tubulacao, disjuntor, espuma polietileno, polietileno expandido, mm luva;False;1.000000;1.000000;1.000000;1.000000
+41106;37;cobre anel, tubulacao, disjuntor, espuma polietileno, polietileno expandido, mm luva;False;1.000000;1.000000;1.000000;1.000000
+41215;1;parafuso, zincado, cabeca, soberba, rosca soberba, comprimento mm;False;1.000000;1.000000;1.000000;1.000000
+41222;18;conexao crimpagem, crimpagem, plastico, conexao, tubo pex, pex;False;1.000000;1.000000;1.000000;1.000000
+41249;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+41573;57;naval, tubo pvc, compensado, compensado naval, 220, 160;False;1.000000;1.000000;1.000000;1.000000
+41574;57;naval, tubo pvc, compensado, compensado naval, 220, 160;False;1.000000;1.000000;1.000000;1.000000
+41575;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+41576;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;False;1.000000;1.000000;1.000000;1.000000
+41609;22;janela, brilhante, bandeira, aluminio, vidro, janela correr;False;1.000000;1.000000;1.000000;1.000000
+41627;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+41628;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+41632;2;bloco, furos, cm, vedacao, mpa, estrutural;False;0.125000;0.125000;0.125000;0.125000
+41647;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+41721;85;cat, categoria, 5e, pares, par, patch;False;0.416667;1.000000;1.000000;1.000000
+42035;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;1.000000;1.000000;1.000000
+42249;1;parafuso, zincado, cabeca, soberba, rosca soberba, comprimento mm;False;1.000000;1.000000;1.000000;1.000000
+42356;29;disjuntor, ac, tripolar, corrente, vazao maxima, plana;False;1.000000;1.000000;1.000000;1.000000
+42413;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+42418;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+42671;31;gas, controle, condicionado, ar condicionado, ar, teto;False;1.000000;1.000000;1.000000;1.000000
+43314;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+43524;31;gas, controle, condicionado, ar condicionado, ar, teto;False;1.000000;1.000000;1.000000;1.000000
+43777;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+44710;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+44888;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+44898;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.500000;0.500000;0.500000;0.500000
+44899;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.333333;0.333333;0.333333;0.333333
+45236;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;0.500000;0.500000;0.500000;0.500000
+45285;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;False;1.000000;1.000000;1.000000;1.000000
+45473;23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;False;1.000000;1.000000;1.000000;1.000000
+46125;114;impermeabilizante, liquido, epoxi, base resina, resina, adesivo;False;0.500000;0.500000;0.500000;0.500000
+46152;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.242857;0.583333;0.583333;0.583333
+46153;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.142857;0.333333;0.333333;0.333333
+46211;-1;outliers (sem tópico coerente);True;0.500000;0.500000;0.500000;0.500000
+46466;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;0.500000;0.500000;0.500000;0.500000
+47089;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+47189;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+47223;3;angelim, regiao, regiao bruta, bruta, 25, 75;False;1.000000;1.000000;1.000000;1.000000
+47243;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+47291;14;cabo, mm cabo, cobre flexivel, secao nominal, nominal mm, nominal;False;1.000000;1.000000;1.000000;1.000000
+47965;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;False;1.000000;1.000000;1.000000;1.000000
+48004;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.500000;0.500000;0.500000;0.500000
+48065;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+48078;12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;False;1.000000;0.583333;0.512821;0.583333
+48089;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;0.642857;0.642857;0.642857;0.642857
+48090;75;forma, madeira, mm sinapi, 11, concreto, mm chapa;False;1.000000;1.000000;1.000000;1.000000
+48154;-1;outliers (sem tópico coerente);True;1.000000;1.000000;1.000000;1.000000
+48269;42;litros, litros tampa, tampa caixa, asfaltica, caixa dagua, dagua;False;1.000000;1.000000;1.000000;1.000000
+48550;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+48551;21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;False;0.500000;0.500000;0.500000;0.500000
+50871;59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;False;0.250000;0.250000;0.250000;0.250000

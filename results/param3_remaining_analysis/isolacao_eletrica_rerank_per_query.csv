@@ -1,0 +1,61 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+1097;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;pvc:isolacao_eletrica;129310;0.031250;0.010753;0.031250;BUCHA DE REDUCAO DE PVC, SOLDAVEL, LONGA, COM 50 X 25 MM, PARA AGUA FRIA PREDIAL
+1098;15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;pvc:isolacao_eletrica;129311;0.029412;0.010753;0.029412;BUCHA DE REDUCAO DE PVC, SOLDAVEL, LONGA, COM 50 X 32 MM, PARA AGUA FRIA PREDIAL
+3445;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129323;0.076923;0.076923;1.000000;LUVA PVC SOLDAVEL, 40 MM, PARA AGUA FRIA PREDIAL
+4970;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;pvc:isolacao_eletrica;129325;0.200000;0.200000;0.200000;TIL PARA LIGACAO PREDIAL, EM PVC, JE, BBB, DN 100 X 100 MM, PARA REDE COLETORA ESGOTO (NBR 10569)
+6029;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;126736;1.000000;1.000000;1.000000;CAIXA DE INSPECAO PARA ATERRAMENTO OU OUTRO USO, EM PVC, DN = 250 X 250 MM
+6030;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;126737;1.000000;1.000000;1.000000;CAIXA DE INSPECAO PARA ATERRAMENTO OU OUTRO USO, EM PVC, DN = 300 X *300* MM
+6031;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;126738;1.000000;1.000000;1.000000;CAIXA DE INSPECAO PARA ATERRAMENTO OU OUTRO USO, EM PVC, DN = 300 X 250 MM
+6032;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;126739;1.000000;1.000000;1.000000;CAIXA DE INSPECAO PARA ATERRAMENTO OU OUTRO USO, EM PVC, DN = 300 X 600 MM
+6478;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;epr:isolacao_eletrica;127661;1.000000;1.000000;1.000000;TERMINAL DE PORCELANA (MUFLA) UNIPOLAR, USO EXTERNO, TENSAO 3,6/6 KV, PARA CABO DE 10/16 MM2, COM ISOLAMENTO EPR
+6488;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;127671;1.000000;1.000000;1.000000;ANEL BORRACHA, PARA TUBO PVC, REDE COLETOR ESGOTO, DN 125 MM (NBR 7362)
+6512;44;grelha, branca, pvc mm, ralo, redonda, quadrada;pvc:isolacao_eletrica;127695;1.000000;1.000000;1.000000;CAIXA SIFONADA PVC 150 X 150 X 50MM COM TAMPA CEGA QUADRADA BRANCA
+6513;44;grelha, branca, pvc mm, ralo, redonda, quadrada;pvc:isolacao_eletrica;127696;1.000000;1.000000;1.000000;CAIXA SIFONADA PVC, 100 X 100 X 40 MM, COM GRELHA REDONDA BRANCA
+6514;44;grelha, branca, pvc mm, ralo, redonda, quadrada;pvc:isolacao_eletrica;127697;1.000000;1.000000;1.000000;CAIXA SIFONADA PVC, 150 X 185 X 75 MM, COM TAMPA CEGA QUADRADA BRANCA
+6597;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;epr:isolacao_eletrica;127780;1.000000;1.000000;1.000000;MUFLA TERMINAL PRIMARIA UNIPOLAR USO EXTERNO PARA CABO 25/70MM2 ISOL, 3,6/6KV EM EPR - BORRACHA DE SILICONE
+6598;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;epr:isolacao_eletrica;127781;1.000000;1.000000;1.000000;MUFLA TERMINAL PRIMARIA UNIPOLAR USO INTERNO PARA CABO 25/70MM2 ISOL 6/10KV EM EPR- BORRACHA DE SILICONE
+6599;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;epr:isolacao_eletrica;127782;1.000000;1.000000;1.000000;MUFLA TERMINAL PRIMARIA UNIPOLAR USO INTERNO PARA CABO 35/120MM2 ISOLACAO 15/25KV EM EPR - BORRACHA DE SILICONE
+6600;121;unipolar, blindado, cobertura, kv, isolacao, cabo cobre;epr:isolacao_eletrica;127783;1.000000;1.000000;1.000000;MUFLA TERMINAL PRIMARIA UNIPOLAR USO INTERNO PARA CABO 35/70MM2 ISOLACAO 8,7/15KV EM EPR - BORRACHA DE SILICONE
+6604;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;127787;1.000000;1.000000;1.000000;PASTA LUBRIFICANTE PARA TUBOS E CONEXOES COM JUNTA ELASTICA (USO EM PVC, ACO, POLIETILENO E OUTROS) (POTE DE 3.500* G)
+6616;44;grelha, branca, pvc mm, ralo, redonda, quadrada;pvc:isolacao_eletrica;127799;0.500000;0.500000;0.500000;PROLONGAMENTO PVC PARA CAIXA SIFONADA 100 MM X 100 MM (NBR 5688)
+6617;44;grelha, branca, pvc mm, ralo, redonda, quadrada;pvc:isolacao_eletrica;127800;0.500000;0.500000;0.500000;PROLONGAMENTO PVC PARA CAIXA SIFONADA, 100 MM X 150 MM (NBR 5688)
+6631;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;127814;1.000000;1.000000;1.000000;SOLUCAO LIMPADORA PARA PVC, FRASCO COM 200 CM3
+6696;85;cat, categoria, 5e, pares, par, patch;pvc:isolacao_eletrica;128115,128116;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 5E (CAT 5E), ISOLAMENTO PVC (CM)
+6697;85;cat, categoria, 5e, pares, par, patch;pvc:isolacao_eletrica;128115,128116;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 5E (CAT 5E), ISOLAMENTO PVC (CMX)
+6831;85;cat, categoria, 5e, pares, par, patch;pvc:isolacao_eletrica;128350;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 6 (CAT 6), ISOLAMENTO PVC (CM)
+7820;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129323;1.000000;1.000000;1.000000;LUVA DE CORRER PARA TUBO SOLDAVEL, PVC, 40 MM, PARA AGUA FRIA PREDIAL
+7822;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;pvc:isolacao_eletrica;129325;1.000000;1.000000;1.000000;TIL CONDOMINIAL, PVC, DN 100 X 100 MM, PARA REDE COLETORA DE ESGOTO
+7823;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;pvc:isolacao_eletrica;129326;1.000000;1.000000;1.000000;TIL RADIAL, PVC, JE, BBB, DN 300 X 200 MM, PARA REDE COLETORA DE ESGOTO (NBR 10.569)
+7826;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129329;1.000000;1.000000;1.000000;TUBO PVC, RIGIDO, CORRUGADO, PERFURADO DN 100 MM, PARA DRENAGEM, SISTEMA IRRIGACAO
+8615;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124883;1.000000;1.000000;1.000000;Tubo PVC PBA JEI Classe 12 DN 75mm para rede de água (NBR 5647)
+8617;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124876;1.000000;1.000000;1.000000;Tubo PVC DEFOFO, JEI, 1 MPA, DN 100mm, para rede de água (NBR 7665)
+8618;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124877;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 150mm para rede de água (NBR 7665)
+8619;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124878;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 200mm para rede de água (NBR 7665)
+8620;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124879;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 250mm Para Rede De Água (NBR 7665)
+12694;34;prediais, pluviais prediais, esgoto aguas, pvc serie, serie, mm esgoto;pvc:isolacao_eletrica;152364;1.000000;1.000000;1.000000;AVENTAL IMPERMEÁVEL TIPO AÇOUGUEIRO OU FRONTAL CONFECCIONA- DO EM PVC FORRADO IMPERMEÁVEL A LÍQUIDOS NÃO CORROSIVOS, COM COMPRIMENTO DE 120 CM E LARGURA 70 CM, POSSUI CORDÕES EM TECI- DO PARA AJUSTE E FIXAÇÃO NA ALTURA DA CINTURA E DO PESCOÇO, PRESOS AO AVENTAL, APROVADO PARA PROTEÇÃO DO USUÁRIO CONTRA UMIDADE PROVENIENTE DE OPERAÇÕES COM O USO DE ÁGUA E ÓLEO. COM CA NA COR BRANCA OU PRETA, QUANTITATIVO SERÃO INFORMADOS APÓS A EMISSÃO DA NOTA DE EMPENHO EM FORMULÁRIO PRÓPRIO, SE ELETRÔNICO, EXTENSÃO PDF. O MATERIAL DEVERÁ TER COMO MARCA DE REFERÊNCIA DE QUALIDADE IGUAL OU SUPERIOR A SOLOSTOCKS (REF. AVENTAL IMPERMEÁVEL TIPO AÇOUGUEIRO SOLOSTOCKS).
+14547;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129329;1.000000;1.000000;1.000000;Tubo PVC corrugado rígido perfurado, DN 100 mm, para dreno
+14589;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;pvc:isolacao_eletrica;124873;1.000000;1.000000;1.000000;Tubo de pvc geomecânico standard, DN 154, parede de 9,5mm, seção de 2 m
+17644;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;124653;1.000000;1.000000;1.000000;TUBO PVC OCRE DIÂMETRO 100MM COM CONEXÃO JEI
+17653;5;je, mm rede, rede coletora, coletora esgoto, coletora, rede;pvc:isolacao_eletrica;121622;0.500000;0.500000;1.000000;CURVA CURTA 45° PVC OCRE DIÂMETRO 100MM COM CONEXÃO JEI
+19895;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129323;1.000000;1.000000;1.000000;Luva de correr PVC soldável 40 mm
+20212;2;bloco, furos, cm, vedacao, mpa, estrutural;pvc:isolacao_eletrica;128344;1.000000;0.020000;1.000000;Sifão extensível universal PVC branco, 70 cm
+29044;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124972;1.000000;1.000000;1.000000;UNIAO SOLDAVEL EM PVC RIGIDO PARA A LINHA DE ÁGUA FRIA 25 MM COR MARROM
+29181;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124975;1.000000;1.000000;1.000000;UNIAO SOLDAVEL EM PVC RIGIDO PARA A LINHA DE ÁGUA FRIA 50 MM COR MARROM
+29849;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124973;1.000000;1.000000;1.000000;UNIAO SOLDAVEL EM PVC RIGIDO PARA A LINHA DE ÁGUA FRIA 32 MM COR MARROM
+34158;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124976;1.000000;1.000000;1.000000;UNIAO SOLDAVEL EM PVC RIGIDO PARA A LINHA DE ÁGUA FRIA 60 MM COR MARROM
+35663;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;124868;0.500000;0.500000;0.500000;TUBO PVC CORRUGADO, PAREDE DUPLA, JE, DN 300 MM/ DE 315 MM, REDE COLETORA ESGOTO
+35677;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;pvc:isolacao_eletrica;124863;1.000000;1.000000;1.000000;TUBO PVC SERIE NORMAL, DN 150 MM, PARA ESGOTO PREDIAL (NBR 5688)
+35678;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;pvc:isolacao_eletrica;124864;1.000000;1.000000;1.000000;TUBO PVC SERIE NORMAL, DN 40 MM, PARA ESGOTO PREDIAL (NBR 5688)
+35681;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124970;1.000000;1.000000;1.000000;UNIAO PVC, SOLDAVEL, 110 MM, PARA AGUA FRIA PREDIAL
+35682;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124971;1.000000;1.000000;1.000000;UNIAO PVC, SOLDAVEL, 20 MM, PARA AGUA FRIA PREDIAL
+35683;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124974;1.000000;1.000000;1.000000;UNIAO PVC, SOLDAVEL, 40 MM, PARA AGUA FRIA PREDIAL
+35684;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;pvc:isolacao_eletrica;124978;1.000000;1.000000;1.000000;UNIAO PVC, SOLDAVEL, 85 MM, PARA AGUA FRIA PREDIAL
+37327;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;122463;0.100000;0.100000;0.100000;Joelho PVC soldável 20 x 1/2 NBR 5648
+37328;-1;outliers (sem tópico coerente);pvc:isolacao_eletrica;122464;0.100000;0.100000;0.100000;Joelho PVC soldável 25 x 1/2 NBR 5648
+37368;57;naval, tubo pvc, compensado, compensado naval, 220, 160;pvc:isolacao_eletrica;124917;0.142857;0.142857;1.000000;Tubo PVC soldável 60 mm NBR 5648
+38492;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;129323;1.000000;1.000000;1.000000;Luva de correr para tubo de PVC soldável 40mm
+40839;34;prediais, pluviais prediais, esgoto aguas, pvc serie, serie, mm esgoto;pvc:isolacao_eletrica;152364;1.000000;1.000000;1.000000;AVENTAL EM TECIDO IMPERMEÁVEL RESISTENTE S/ BOLSO 1,20X0,70M - UN MATERIAL PVC FORRADO COR PRETA
+41573;57;naval, tubo pvc, compensado, compensado naval, 220, 160;pvc:isolacao_eletrica;124912;1.000000;1.000000;1.000000;TUBO PVC, SOLDAVEL, DE 20 MM, AGUA FRIA (NBR-5648)
+41574;57;naval, tubo pvc, compensado, compensado naval, 220, 160;pvc:isolacao_eletrica;124913;1.000000;1.000000;1.000000;TUBO PVC, SOLDAVEL, DE 25 MM, AGUA FRIA (NBR-5648)
+41575;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;124908;1.000000;1.000000;1.000000;TUBO PVC, SERIE R, DN 40 MM, PARA ESGOTO OU AGUAS PLUVIAIS PREDIAL (NBR 5688)
+41576;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;pvc:isolacao_eletrica;124906;1.000000;1.000000;1.000000;TUBO PVC, SERIE R, DN 100 MM, PARA ESGOTO OU AGUAS PLUVIAIS PREDIAL (NBR 5688)

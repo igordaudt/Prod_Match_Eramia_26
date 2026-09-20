@@ -1,0 +1,2 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+41222;18;conexao crimpagem, crimpagem, plastico, conexao, tubo pex, pex;60:ca_aco;124369;1.000000;1.000000;1.000000;TELA DE AÇO SOLDADA NERVURADA, CA-60, Q-196, (3,11 KG/M2), DIAMETRO DO FIO = 5,0 MM, LARGURA = 2,45 M, ESPACAMENTO DA MALHA = 10 X 10 CM

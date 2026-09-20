@@ -1,0 +1,2 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+42356;29;disjuntor, ac, tripolar, corrente, vazao maxima, plana;62hz;152371;1.000000;1.000000;1.000000;DETECTOR DE TENSÃO DE 90 A 1.000 VAC (48 A 62 HZ)

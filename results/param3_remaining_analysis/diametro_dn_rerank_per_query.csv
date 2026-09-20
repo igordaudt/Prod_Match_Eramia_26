@@ -1,0 +1,25 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+5338;27;pex, tubo pex, conexao, conexao anel, plastica, metalica;32mm;129328;0.100000;0.500000;0.500000;TUBO PPR, CLASSE PN 25, DN 32 MM, PARA AGUA QUENTE E FRIA PREDIAL
+5618;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;28mm;120574;1.000000;1.000000;1.000000;BUCHA DE REDUÇÃO EM COBRE DIA DN 28 MM X 22 MM CLASSE A
+5620;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;22mm;120573;1.000000;1.000000;1.000000;BUCHA DE REDUÇÃO EM COBRE DIA DN 22 MM X 15 MM CLASSE A
+6488;-1;outliers (sem tópico coerente);125mm;127671;1.000000;1.000000;1.000000;ANEL BORRACHA, PARA TUBO PVC, REDE COLETOR ESGOTO, DN 125 MM (NBR 7362)
+6705;-1;outliers (sem tópico coerente);500mm;128124;1.000000;1.000000;1.000000;TUBO CORRUGADO PEAD, PAREDE DUPLA, INTERNA LISA, JEI DN/DI 500 MM (DRENAGEM/ESGOTO)
+7812;119;quente fria, mm cor, conector, cor marrom, marrom agua, marrom;25mm;129315;1.000000;1.000000;1.000000;"CONECTOR / ADAPTADOR F/M, COM INSERTO METALICO, PPR, DN 25 MM X 3/4"", PARA AGUA QUENTE E FRIA PREDIAL"
+7813;119;quente fria, mm cor, conector, cor marrom, marrom agua, marrom;32mm;129316;1.000000;1.000000;1.000000;"CONECTOR / ADAPTADOR F/M, COM INSERTO METALICO, PPR, DN 32 MM X 1"", PARA AGUA QUENTE E FRIA PREDIAL"
+7825;27;pex, tubo pex, conexao, conexao anel, plastica, metalica;32mm;129328;1.000000;1.000000;1.000000;TUBO PPR, CLASSE PN 20, SOLDAVEL, DN 32 MM PARA AGUA FRIA OU QUENTE PREDIAL
+7826;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;100mm;129329;1.000000;1.000000;1.000000;TUBO PVC, RIGIDO, CORRUGADO, PERFURADO DN 100 MM, PARA DRENAGEM, SISTEMA IRRIGACAO
+8615;-1;outliers (sem tópico coerente);75mm;124883;1.000000;1.000000;1.000000;Tubo PVC PBA JEI Classe 12 DN 75mm para rede de água (NBR 5647)
+8617;-1;outliers (sem tópico coerente);100mm;124876;1.000000;1.000000;1.000000;Tubo PVC DEFOFO, JEI, 1 MPA, DN 100mm, para rede de água (NBR 7665)
+8618;-1;outliers (sem tópico coerente);150mm;124877;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 150mm para rede de água (NBR 7665)
+8619;-1;outliers (sem tópico coerente);200mm;124878;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 200mm para rede de água (NBR 7665)
+8620;-1;outliers (sem tópico coerente);250mm;124879;1.000000;1.000000;1.000000;Tubo PVC DEFOFO JEI 1 MPA DN 250mm Para Rede De Água (NBR 7665)
+14547;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;100mm;129329;1.000000;1.000000;1.000000;Tubo PVC corrugado rígido perfurado, DN 100 mm, para dreno
+35659;-1;outliers (sem tópico coerente);16mm;124841;1.000000;1.000000;1.000000;TUBO MULTICAMADA PEX GAS, DN *16* MM
+35660;-1;outliers (sem tópico coerente);20mm;124842;1.000000;1.000000;1.000000;TUBO MULTICAMADA PEX GAS, DN *20* MM
+35661;-1;outliers (sem tópico coerente);26mm;124840;1.000000;1.000000;1.000000;TUBO MULTICAMADA PEX GAS, DN *26* MM
+35662;-1;outliers (sem tópico coerente);32mm;124843;1.000000;1.000000;1.000000;TUBO MULTICAMADA PEX GAS, DN *32* MM
+35663;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;300mm;124868;0.500000;1.000000;1.000000;TUBO PVC CORRUGADO, PAREDE DUPLA, JE, DN 300 MM/ DE 315 MM, REDE COLETORA ESGOTO
+35677;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;150mm;124863;1.000000;1.000000;1.000000;TUBO PVC SERIE NORMAL, DN 150 MM, PARA ESGOTO PREDIAL (NBR 5688)
+35678;112;predial nbr, 5648, nbr 5648, tubo pvc, nervurado, graus soldavel;40mm;124864;1.000000;1.000000;1.000000;TUBO PVC SERIE NORMAL, DN 40 MM, PARA ESGOTO PREDIAL (NBR 5688)
+41575;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;40mm;124908;1.000000;1.000000;1.000000;TUBO PVC, SERIE R, DN 40 MM, PARA ESGOTO OU AGUAS PLUVIAIS PREDIAL (NBR 5688)
+41576;32;tubo pvc, corrugado, 5688, nbr 5688, luva correr, rede coletora;100mm;124906;1.000000;1.000000;1.000000;TUBO PVC, SERIE R, DN 100 MM, PARA ESGOTO OU AGUAS PLUVIAIS PREDIAL (NBR 5688)

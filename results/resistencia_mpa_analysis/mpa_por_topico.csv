@@ -1,0 +1,4 @@
+topic_id;keywords;map_medio_topico;n;fraco;map_baseline;map_gateado;delta
+-1;outliers (sem tópico coerente);0.8053;4;nao;1.0000;1.0000;+0.0000
+2;bloco, furos, cm, vedacao, mpa, estrutural;0.5459;8;sim;0.7326;0.7206;-0.0120
+23;mm anel, tampa concreto, elastica, arame, malha cm, tubo concreto;0.8219;3;nao;0.0682;0.0682;+0.0000

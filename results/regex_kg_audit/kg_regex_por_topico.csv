@@ -1,0 +1,10 @@
+topic_id;keywords;map_medio_topico;n_hits_kg;fraco_precisa_ajuda
+-1;outliers (sem tópico coerente);0.8053;2;nao
+12;tinta, premium, acrilica, tinta esmalte, esmalte, sinapi;0.7838;2;nao
+18;conexao crimpagem, crimpagem, plastico, conexao, tubo pex, pex;1.0000;1;nao
+47;perfurada, mm virola, virola tampa, galvanizado espessura, removivel, virola;1.0000;1;nao
+73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;0.5431;6;sim
+88;poste, poste concreto, kg, circular, bolsa, bolsa bolsa;0.6751;2;nao
+101;kg, cabine, cv inclui, peso bruto, total, chassi;0.4453;11;sim
+111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;0.8168;3;nao
+114;impermeabilizante, liquido, epoxi, base resina, resina, adesivo;0.9062;1;nao

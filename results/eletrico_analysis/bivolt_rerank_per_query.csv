@@ -1,0 +1,2 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+6180;123;lavatorio, mesa lavatorio, mesa, cromada, cromada mesa, torneira;bivolt:presence;126880;1.000000;1.000000;1.000000;TORNEIRA DE MESA CROMADA PARA LAVATORIO COM SENSOR DE APROXIMACAO ELETRICO, BIVOLT

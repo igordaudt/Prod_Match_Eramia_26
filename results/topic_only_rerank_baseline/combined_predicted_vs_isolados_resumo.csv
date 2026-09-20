@@ -1,0 +1,22 @@
+atributo;n;map_baseline;map_so_topico_previsto;map_atributo_topico_previsto;map_combinado_previsto;vencedor
+GLOBAL (uniao de todos os atributos, 852 consultas);852;0.793226;0.741363;;0.756466;
+Peso (kg/g/mg/t);46;0.762310;0.725287;0.782143;0.746931;atributo+topico
+Dimensional (mm/cm/m/pol, 6 regras);548;0.790559;0.745327;0.805237;0.768472;atributo+topico
+Potencia mecanica (cv/hp);22;0.616162;0.613727;0.638258;0.635823;atributo+topico
+Diametro nominal (DN);24;0.941667;0.851389;0.958333;0.888889;atributo+topico
+Isolacao eletrica;60;0.861341;0.790234;0.794401;0.790234;atributo+topico
+Vias condutoras;9;0.731481;0.501235;0.564815;0.501235;atributo+topico
+Categoria de rede (CAT5...);8;0.843750;0.584722;0.704167;0.584722;atributo+topico
+Material base;430;0.810182;0.764053;0.773002;0.760598;atributo+topico
+Corrente eletrica;52;0.813646;0.749784;0.816102;0.752240;atributo+topico
+Resistencia estrutural (mpa);15;0.671051;0.671051;0.649839;0.649839;so-topico
+Pressao hidraulica;17;0.687692;0.695045;0.668976;0.676329;so-topico
+Norma NBR;132;0.682607;0.672829;0.673772;0.657694;atributo+topico
+Cor base;116;0.737722;0.655710;0.698915;0.656277;atributo+topico
+Tensao (v/kv);17;0.977941;0.926471;0.977941;0.926471;atributo+topico
+Potencia eletrica (w/kw/kva);29;0.804598;0.804598;0.804598;0.804598;empate (combinado nao perde)
+Capacidade (litros);27;0.865741;0.861111;0.865741;0.861111;atributo+topico
+Comprimento/diametro em polegadas;76;0.722180;0.689756;0.730952;0.698528;atributo+topico
+Area (mm2/cm2/m2);14;0.761905;0.761905;0.761905;0.761905;empate (combinado nao perde)
+Volume (mm3/cm3/m3);7;0.642857;0.642857;0.642857;0.642857;empate (combinado nao perde)
+Concentracao quimica (%);7;0.690476;0.690476;0.690476;0.690476;empate (combinado nao perde)

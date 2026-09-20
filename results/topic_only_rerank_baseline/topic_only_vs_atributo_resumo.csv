@@ -1,0 +1,29 @@
+atributo;n;map_baseline;map_attr_mais_topico;map_so_topico;delta_attr_mais_topico;delta_so_topico;vencedor
+Peso (kg/g/mg/t);46;0.762310;0.800259;0.779287;+0.037949;+0.016977;atributo
+Dimensional (mm/cm/m/pol, 6 regras);548;0.790559;0.834230;0.807392;+0.043670;+0.016832;atributo
+Potencia mecanica (cv/hp);22;0.616162;0.638258;0.621843;+0.022096;+0.005682;atributo
+Diametro nominal (DN);24;0.941667;0.979167;0.941667;+0.037500;+0.000000;atributo
+Isolacao eletrica;60;0.861341;0.899344;0.909444;+0.038004;+0.048104;topico-so
+Vias condutoras;9;0.731482;1.000000;1.000000;+0.268518;+0.268518;empate
+Categoria de rede (CAT5...);8;0.843750;1.000000;1.000000;+0.156250;+0.156250;empate
+Material base;430;0.810182;0.818999;0.827343;+0.008817;+0.017161;topico-so
+Corrente eletrica;52;0.813646;0.816102;0.813646;+0.002456;-0.000000;atributo
+Resistencia estrutural (mpa);15;0.671051;0.664654;0.781746;-0.006397;+0.110695;topico-so
+Pressao hidraulica;17;0.687692;0.682048;0.792717;-0.005645;+0.105025;topico-so
+Norma NBR;132;0.682607;0.673661;0.692819;-0.008946;+0.010212;topico-so
+Cor base;116;0.737722;0.721792;0.734298;-0.015931;-0.003425;topico-so
+Tensao (v/kv);17;0.977941;0.977941;0.985294;+0.000000;+0.007353;topico-so
+Potencia eletrica (w/kw/kva);29;0.804598;0.804598;0.804598;+0.000000;+0.000000;topico-so
+Capacidade (litros);27;0.865741;0.865741;0.853726;+0.000000;-0.012015;atributo
+Comprimento/diametro em polegadas;39;0.761783;0.761783;0.766056;+0.000000;+0.004274;topico-so
+Area (mm2/cm2/m2);14;0.761905;0.761905;0.761905;+0.000000;-0.000000;atributo
+Volume (mm3/cm3/m3);7;0.642857;0.642857;0.642857;+0.000000;+0.000000;empate
+Concentracao quimica (%);7;0.690476;0.690476;0.857143;+0.000000;+0.166667;topico-so
+Bitola AWG/MCM;4;0.708333;0.708333;1.000000;+0.000000;+0.291667;topico-so
+Classe CA do aco;1;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Classe (A-D);4;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Embalagem (caixa/pct/kit com N);2;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Embalagem (N unidades/pecas);5;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Frequencia (hz);1;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Bivolt;1;1.000000;1.000000;1.000000;+0.000000;+0.000000;empate
+Fases/polos;3;0.833333;0.833333;0.833333;+0.000000;+0.000000;empate

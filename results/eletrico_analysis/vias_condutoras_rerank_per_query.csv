@@ -1,0 +1,10 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+1275;85;cat, categoria, 5e, pares, par, patch;4pares;128115,128116;0.416667;0.416667;1.000000;CABO DE PAR TRANCADO UTP, 4 PARES, CATEGORIA 5E
+1276;85;cat, categoria, 5e, pares, par, patch;4pares;128350;0.333333;0.333333;1.000000;CABO DE PAR TRANCADO UTP, 4 PARES, CATEGORIA 6
+5920;30;bsp, rosca bsp, galvanizado rosca, ferro, ferro galvanizado, curva graus;4pares;120801;1.000000;1.000000;1.000000;Cabo rede UTP 4 pares cat 6
+6696;85;cat, categoria, 5e, pares, par, patch;4pares;128115,128116;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 5E (CAT 5E), ISOLAMENTO PVC (CM)
+6697;85;cat, categoria, 5e, pares, par, patch;4pares;128115,128116;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 5E (CAT 5E), ISOLAMENTO PVC (CMX)
+6831;85;cat, categoria, 5e, pares, par, patch;4pares;128350;1.000000;1.000000;1.000000;CABO DE REDE, PAR TRANCADO U/UTP, 4 PARES, CATEGORIA 6 (CAT 6), ISOLAMENTO PVC (CM)
+9151;48;mpa nbr, mpa, estrutural, bloco, canaleta, nbr;4pares;128351;1.000000;0.142857;1.000000;Cabo para rede U/UTP 23 AWG com 4 pares - categoria 6A
+40451;85;cat, categoria, 5e, pares, par, patch;4pares;128115,128116;0.416667;0.416667;1.000000;"Cabo De Rede Utp Cat-5e ,Cabo De 4 Pares Trançados, Não Blindado (Utp);Material Do Condutor: 100% Cobre E Bitola 24 Awg (Não Será Aceito Alumínio Cobreado, Cca);Suporte A Transmissão De Dados De 1 Gbps Em Até 100 Metros, Frequência De 100 Mhz;Capa Externa"
+41721;85;cat, categoria, 5e, pares, par, patch;4pares;128115,128116;0.416667;0.416667;1.000000;"Cabo De Rede Utp Cat-5e ,Cabo De 4 Pares Trançados, Não Blindado (Utp);Material Do Condutor: 100% Cobre E Bitola 24 Awg (Não Será Aceito Alumínio Cobreado, Cca);Suporte A Transmissão De Dados De 1 Gbps Em Até 100 Metros, Frequência De 100 Mhz;Capa Externa"

@@ -1,0 +1,8 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+4478;113;bomba, usinado, resistencia, servico, classe, concreto;40m3;126873;0.500000;0.500000;0.500000;SERVICO DE BOMBEAMENTO DE CONCRETO COM CONSUMO MINIMO DE 40 M3
+4619;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;20m3;126875;0.500000;0.500000;0.500000;"TARIFA ""A"" ENTRE 0 E 20M3 FORNECIMENTO D'AGUA"
+6166;113;bomba, usinado, resistencia, servico, classe, concreto;40m3;126873;0.500000;0.500000;0.500000;SERVICO DE BOMBEAMENTO DE CONCRETO COM CONSUMO MINIMO DE 40 M3
+6175;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;20m3;126875;0.500000;0.500000;0.500000;"TARIFA ""A"" ENTRE 0 E 20M3 FORNECIMENTO D'AGUA"
+6463;10;hp, peso, hp peso, potencia, liquida, maximo;1m3;127646;1.000000;1.000000;1.000000;ESCAVADEIRA HIDRAULICA SOBRE ESTEIRAS DE 99 HP, PESO OPERACIONAL DE *16* T E CAPACIDADE DE 0,85 A 1,00 M3 (LOCACAO COM OPERADOR, COMBUSTIVEL E MANUTENCAO)
+6631;9;adaptador pvc, adaptador, pvc soldavel, agua adaptador, caixa agua, soldavel;200cm3;127814;1.000000;1.000000;1.000000;SOLUCAO LIMPADORA PARA PVC, FRASCO COM 200 CM3
+35561;69;moldado, comp, contribuintes, guia, concreto premoldado, mm malha;20m3;126875;0.500000;0.500000;0.500000;"TARIFA ""A"" ENTRE 0 E 20M3 FORNECIMENTO D'AGUA"

@@ -1,0 +1,13 @@
+topic_id;keywords;n_consultas;map_baseline;map_adaptativo;delta
+41;500, media, capa, folha, tensao nominal, tripolar;5;0.260202;0.283696;+0.023494
+61;capa, marco, folha, dobradicas, pronta, alizares;10;0.326347;0.328049;+0.001703
+125;termoplastica, manta, mm nbr, lisa, pead, nbr;14;0.500000;0.500000;+0.000000
+70;torneira, cromada, bico, arejador, cozinha, 12 34;13;0.410989;0.376282;-0.034707
+20;costura, leve dn, tubo aco, ii, maxima, kgm;0;;;
+101;kg, cabine, cv inclui, peso bruto, total, chassi;11;0.428030;0.528788;+0.100758
+59;mm amianto, amianto, ondulada, fibrocimento, telha, telha fibrocimento;10;0.450000;0.440000;-0.010000
+94;diametro nominal, fita aco, galvanizado diametro, fita, eletroduto flexivel, nominal;12;0.576389;0.576389;+0.000000
+15;ppr, quente predial, graus soldavel, quente, predial joelho, ff;5;0.612132;0.512132;-0.100000
+73;distancia, kg, carroceria, eixos, cv inclui, peso bruto;6;0.703704;0.727778;+0.024074
+2;bloco, furos, cm, vedacao, mpa, estrutural;28;0.612770;0.680162;+0.067392
+21;agua esgoto, densidade pead, polietileno alta, alta densidade, densidade, pn;48;0.675347;0.682292;+0.006944

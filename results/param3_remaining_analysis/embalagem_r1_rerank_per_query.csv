@@ -1,0 +1,3 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+47189;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;50:embalagem_r1;127704;1.000000;1.000000;1.000000;Saco cimento Portland CP II-32 - saco 50 kg
+47965;111;roscavel flanges, vedacao mm, flanges anel, anel vedacao, flanges, mm caixa;50:embalagem_r1;127704;1.000000;1.000000;1.000000;CIMENTO PORTLAND CP II-32 - SACO 50 KG

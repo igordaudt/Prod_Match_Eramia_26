@@ -1,0 +1,5 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+6832;48;mpa nbr, mpa, estrutural, bloco, canaleta, nbr;23awg;128351;1.000000;1.000000;1.000000;CABO ELETRONICO CATEGORIA 6A U/UTP 23AWG X 4P
+9151;48;mpa nbr, mpa, estrutural, bloco, canaleta, nbr;23awg;128351;1.000000;1.000000;1.000000;Cabo para rede U/UTP 23 AWG com 4 pares - categoria 6A
+40451;85;cat, categoria, 5e, pares, par, patch;24awg;128115,128116;0.416667;0.416667;0.416667;"Cabo De Rede Utp Cat-5e ,Cabo De 4 Pares Trançados, Não Blindado (Utp);Material Do Condutor: 100% Cobre E Bitola 24 Awg (Não Será Aceito Alumínio Cobreado, Cca);Suporte A Transmissão De Dados De 1 Gbps Em Até 100 Metros, Frequência De 100 Mhz;Capa Externa"
+41721;85;cat, categoria, 5e, pares, par, patch;24awg;128115,128116;0.416667;0.416667;0.416667;"Cabo De Rede Utp Cat-5e ,Cabo De 4 Pares Trançados, Não Blindado (Utp);Material Do Condutor: 100% Cobre E Bitola 24 Awg (Não Será Aceito Alumínio Cobreado, Cca);Suporte A Transmissão De Dados De 1 Gbps Em Até 100 Metros, Frequência De 100 Mhz;Capa Externa"

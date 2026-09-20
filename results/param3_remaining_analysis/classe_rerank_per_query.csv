@@ -1,0 +1,5 @@
+product_id;topic;keywords;query_values;relevant_item_ids;baseline_ap;naive_ap;same_topic_ap;query_text
+4196;-1;outliers (sem tópico coerente);c:classe;126868;1.000000;1.000000;1.000000;POZOLANA DE CLASSE C
+5618;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;a:classe;120574;1.000000;1.000000;1.000000;BUCHA DE REDUÇÃO EM COBRE DIA DN 28 MM X 22 MM CLASSE A
+5620;89;ponta, mm junta, expansao, junta, 900, ponta bolsa;a:classe;120573;1.000000;1.000000;1.000000;BUCHA DE REDUÇÃO EM COBRE DIA DN 22 MM X 15 MM CLASSE A
+6161;-1;outliers (sem tópico coerente);c:classe;126868;1.000000;1.000000;1.000000;POZOLANA DE CLASSE C
